@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -49,12 +50,19 @@ CATEGORIES: dict[str, list[str]] = {
         "calhas e rufos",
         "limpeza de calhas e telhado",
     ],
+    "cftv": [
+        "cftv",
+        "câmeras de monitoramento",
+        "instalação de câmeras",
+        "videomonitoramento",
+    ],
 }
 
 CATEGORY_LABELS = {
     "ar_condicionado": "Ar condicionado",
     "pintura": "Pintura",
     "calhas": "Limpeza de calhas",
+    "cftv": "Câmeras / CFTV",
 }
 
 # A busca do PNCP é full-text e por vezes casa com um item da planilha
@@ -69,6 +77,11 @@ CONFIDENCE_STEMS = {
     ],
     "pintura": ["pintura", "pintar", "repintura"],
     "calhas": ["calha", "rufo", "platibanda"],
+    "cftv": [
+        "cftv", "câmera", "camera", "videomonitoramento", "vídeo monitoramento",
+        "video monitoramento", "circuito fechado", "monitoramento por imagem",
+        "monitoramento por vídeo",
+    ],
 }
 
 # Municípios de interesse prioritário do usuário. Como o escopo final é o
@@ -90,17 +103,39 @@ ABC_PAULISTA = {
     "diadema", "mauá", "ribeirão pires", "rio grande da serra",
 }
 
-# Padrões de nome de órgão que o usuário quer destacar (Sabesp, parques
-# tecnológicos/inovação, prefeituras). Só para exibição/etiqueta.
-ORG_HIGHLIGHT_PATTERNS = [
-    ("sabesp", "Sabesp"),
-    ("parque tecnol", "Parque Tecnológico"),
-    ("parque de inova", "Parque de Inovação"),
-    ("inova", "Inovação/Tech Park"),
-    ("prefeitura", "Prefeitura"),
-    ("municipio", "Prefeitura"),
-    ("município", "Prefeitura"),
+# Classificação do tipo de órgão, para os filtros pedidos pelo usuário
+# (prefeituras, saneamento/autarquias, ensino, parques, polícias). Usa regex
+# com \b (limite de palavra) para siglas curtas como "der" não confundirem
+# com substrings de outras palavras ("poder", "considera" etc.).
+# Ordem importa: primeiro padrão que casa define o tipo.
+ORG_TIPO_PATTERNS: list[tuple[str, str, str]] = [
+    (r"pol[ií]cia", "policia", "Polícia"),
+    (r"corpo de bombeiros", "policia", "Polícia"),
+    (r"sabesp", "saneamento", "Saneamento/Autarquia"),
+    (r"\bsaae\b", "saneamento", "Saneamento/Autarquia"),
+    (r"\bdaee\b", "saneamento", "Saneamento/Autarquia"),
+    (r"\bder\b", "saneamento", "Saneamento/Autarquia"),
+    (r"servi[cç]o autonomo de agua", "saneamento", "Saneamento/Autarquia"),
+    (r"diretoria de ensino", "ensino", "Diretoria de Ensino"),
+    (r"secretaria .*educa[cç][aã]o", "ensino", "Diretoria de Ensino"),
+    (r"parque tecnol[oó]gico", "parque", "Parque Tecnológico"),
+    (r"parque de inova[cç][aã]o", "parque", "Parque de Inovação"),
+    (r"parque da cidade", "parque", "Parque"),
+    (r"prefeitura", "prefeitura", "Prefeitura"),
+    (r"\bmunicipio\b|\bmunicípio\b", "prefeitura", "Prefeitura"),
+    (r"camara municipal|câmara municipal", "prefeitura", "Câmara Municipal"),
 ]
+
+
+def org_tipo(orgao_nome: str | None) -> tuple[str | None, str | None]:
+    """Classifica o órgão nos filtros pedidos. Retorna (chave, rótulo)."""
+    if not orgao_nome:
+        return None, None
+    n = orgao_nome.lower()
+    for pattern, key, label in ORG_TIPO_PATTERNS:
+        if re.search(pattern, n):
+            return key, label
+    return None, None
 
 STATUS = "recebendo_proposta"
 TIPOS_DOCUMENTO = "edital"  # inclui Edital, Aviso de Contratação Direta e
@@ -120,16 +155,6 @@ def region_for(municipio: str | None) -> str:
     if m in ABC_PAULISTA:
         return "abc_paulista"
     return "outras_sp"
-
-
-def org_highlight(orgao_nome: str | None) -> str | None:
-    if not orgao_nome:
-        return None
-    n = orgao_nome.lower()
-    for pattern, label in ORG_HIGHLIGHT_PATTERNS:
-        if pattern in n:
-            return label
-    return None
 
 
 def is_priority(item: dict) -> bool:
@@ -201,6 +226,7 @@ def normalize(item: dict, categoria: str) -> dict:
     municipio = item.get("municipio_nome")
     titulo = item.get("title")
     descricao = (item.get("description") or "").strip()
+    tipo_key, tipo_label = org_tipo(item.get("orgao_nome"))
     return {
         "id": doc_id,
         "numero_controle_pncp": numero_controle,
@@ -211,7 +237,8 @@ def normalize(item: dict, categoria: str) -> dict:
         "titulo": titulo,
         "descricao": descricao,
         "orgao": item.get("orgao_nome"),
-        "orgao_destaque": org_highlight(item.get("orgao_nome")),
+        "org_tipo": tipo_key,
+        "orgao_destaque": tipo_label,
         "esfera": item.get("esfera_nome"),
         "poder": item.get("poder_nome"),
         "municipio": municipio,

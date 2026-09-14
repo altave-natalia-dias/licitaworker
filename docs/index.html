@@ -30,6 +30,8 @@
     --cat-pintura-soft:#f7ecdc;
     --cat-calha:#4a5568;
     --cat-calha-soft:#e9ebee;
+    --cat-cftv:#6b3fa0;
+    --cat-cftv-soft:#efe7f7;
     --shadow: 0 1px 2px rgba(24,36,32,.06), 0 8px 24px -12px rgba(24,36,32,.18);
     color-scheme: light;
   }
@@ -56,6 +58,8 @@
       --cat-pintura-soft:#332a1a;
       --cat-calha:#b6bcc4;
       --cat-calha-soft:#262a2f;
+      --cat-cftv:#c9a6e8;
+      --cat-cftv-soft:#2c2438;
       --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.5);
       color-scheme: dark;
     }
@@ -82,6 +86,8 @@
     --cat-pintura-soft:#332a1a;
     --cat-calha:#b6bcc4;
     --cat-calha-soft:#262a2f;
+    --cat-cftv:#c9a6e8;
+    --cat-cftv-soft:#2c2438;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.5);
     color-scheme: dark;
   }
@@ -140,6 +146,8 @@
     display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
     border-bottom:1px solid var(--border);
   }
+  .toolbar-2{position:static; padding-block:0 12px; margin-top:-8px;}
+  .toolbar-label{font-size:.76rem; color:var(--ink-faint); font-weight:600; letter-spacing:.02em;}
   .chipgroup{display:flex; flex-wrap:wrap; gap:6px;}
   .chip{
     font-size:.78rem; padding:6px 11px; border-radius:999px;
@@ -152,6 +160,7 @@
   .chip.active.ar{background:var(--cat-ar); border-color:var(--cat-ar); color:#fff;}
   .chip.active.pintura{background:var(--cat-pintura); border-color:var(--cat-pintura); color:#fff;}
   .chip.active.calhas{background:var(--cat-calha); border-color:var(--cat-calha); color:#fff;}
+  .chip.active.cftv{background:var(--cat-cftv); border-color:var(--cat-cftv); color:#fff;}
   .chip.active.prioridade{background:var(--urgent); border-color:var(--urgent); color:#fff;}
 
   .searchbox{
@@ -166,7 +175,7 @@
   }
   .searchbox svg{flex:none; color:var(--ink-faint);}
 
-  select#ordenar{
+  select#ordenar, select#prazoFiltro{
     font-family:inherit; font-size:.8rem; padding:7px 10px; border-radius:8px;
     border:1px solid var(--border); background:var(--surface); color:var(--ink-dim);
   }
@@ -187,6 +196,7 @@
   .badge.ar{background:var(--cat-ar-soft); color:var(--cat-ar);}
   .badge.pintura{background:var(--cat-pintura-soft); color:var(--cat-pintura);}
   .badge.calhas{background:var(--cat-calha-soft); color:var(--cat-calha);}
+  .badge.cftv{background:var(--cat-cftv-soft); color:var(--cat-cftv);}
   .badge.prioridade{background:var(--urgent-soft); color:var(--urgent);}
   .badge.baixa{background:var(--surface-2); color:var(--ink-faint);}
   .badge.orgtag{background:var(--accent-soft); color:var(--accent);}
@@ -251,8 +261,8 @@
 <div class="wrap">
   <header class="top">
     <div class="titleblock">
-      <h1>Radar de Licitações — Ar Condicionado, Pintura &amp; Calhas</h1>
-      <p>Oportunidades de prestação de serviços publicadas no PNCP para prefeituras, autarquias e estatais do Estado de São Paulo, com destaque para Vale do Paraíba e ABC Paulista.</p>
+      <h1>Radar de Licitações — Ar Condicionado, Pintura, Calhas &amp; CFTV</h1>
+      <p>Oportunidades de prestação de serviços publicadas no PNCP para prefeituras, autarquias e estatais do Estado de São Paulo, com destaque para Vale do Paraíba e ABC Paulista. Filtre por prazo (7/15/30 dias), tipo de órgão e esfera.</p>
     </div>
     <div class="updated">
       <div><span id="liveDot"></span><span id="liveLabel">carregando dados salvos…</span></div>
@@ -274,6 +284,18 @@
       <option value="prazo">Prazo mais próximo</option>
       <option value="valor">Maior valor estimado</option>
     </select>
+    <select id="prazoFiltro">
+      <option value="todos">Prazo: todos</option>
+      <option value="7">Encerra em até 7 dias</option>
+      <option value="15">Encerra em até 15 dias</option>
+      <option value="30">Encerra em até 30 dias</option>
+    </select>
+  </div>
+  <div class="toolbar toolbar-2">
+    <span class="toolbar-label">Órgão:</span>
+    <div class="chipgroup" id="orgChips"></div>
+    <span class="toolbar-label">Esfera:</span>
+    <div class="chipgroup" id="esferaChips"></div>
   </div>
 
   <div class="resultcount" id="resultCount"></div>
@@ -368,16 +390,21 @@
 
 <script>
 (function(){
-  const CAT_LABEL = {ar_condicionado:'Ar condicionado', pintura:'Pintura', calhas:'Limpeza de calhas'};
-  const CAT_CLASS = {ar_condicionado:'ar', pintura:'pintura', calhas:'calhas'};
+  const CAT_LABEL = {ar_condicionado:'Ar condicionado', pintura:'Pintura', calhas:'Limpeza de calhas', cftv:'Câmeras / CFTV'};
+  const CAT_CLASS = {ar_condicionado:'ar', pintura:'pintura', calhas:'calhas', cftv:'cftv'};
   const REGIAO_LABEL = {vale_do_paraiba:'Vale do Paraíba', abc_paulista:'ABC Paulista', outras_sp:'Outras regiões SP'};
+  const ORG_TIPO_LABEL = {prefeitura:'Prefeitura', saneamento:'Saneamento/Autarquia', ensino:'Diretoria de Ensino', parque:'Parque', policia:'Polícia'};
+  const ESFERA_OPTIONS = ['Municipal','Estadual','Federal'];
 
   const state = {
     categorias: new Set(),      // vazio = todas
+    orgTipos: new Set(),        // vazio = todos
+    esferas: new Set(),         // vazio = todas
     apenasPrioridade: false,
     apenasAltaConfianca: false,
     busca: '',
     ordenar: 'recentes',
+    prazo: 'todos',             // 'todos' | '7' | '15' | '30'
   };
 
   let allItems = [];
@@ -446,12 +473,49 @@
     document.getElementById('chipAlta').addEventListener('click', ()=>{
       state.apenasAltaConfianca = !state.apenasAltaConfianca; renderChips(); renderList();
     });
+
+    // Chips de tipo de órgão (só mostra os que de fato aparecem nos dados atuais)
+    const tiposPresentes = new Set(allItems.map(i=>i.org_tipo).filter(Boolean));
+    const orgEl = document.getElementById('orgChips');
+    orgEl.innerHTML = Object.entries(ORG_TIPO_LABEL)
+      .filter(([k]) => tiposPresentes.has(k))
+      .map(([k,label])=>{
+        const active = state.orgTipos.has(k);
+        return `<button class="chip ${active?'active':''}" data-org="${k}">${label}</button>`;
+      }).join('') || `<span class="toolbar-label" style="font-weight:400;">nenhum nos resultados atuais</span>`;
+    orgEl.querySelectorAll('.chip').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const k = btn.dataset.org;
+        if(state.orgTipos.has(k)) state.orgTipos.delete(k); else state.orgTipos.add(k);
+        renderChips(); renderList();
+      });
+    });
+
+    // Chips de esfera (Municipal/Estadual/Federal)
+    const esferaEl = document.getElementById('esferaChips');
+    esferaEl.innerHTML = ESFERA_OPTIONS.map(label=>{
+      const active = state.esferas.has(label);
+      return `<button class="chip ${active?'active':''}" data-esfera="${label}">${label}</button>`;
+    }).join('');
+    esferaEl.querySelectorAll('.chip').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const v = btn.dataset.esfera;
+        if(state.esferas.has(v)) state.esferas.delete(v); else state.esferas.add(v);
+        renderChips(); renderList();
+      });
+    });
   }
 
   function matches(item){
     if(state.categorias.size && !item.categorias.some(c=>state.categorias.has(c))) return false;
+    if(state.orgTipos.size && !state.orgTipos.has(item.org_tipo)) return false;
+    if(state.esferas.size && !state.esferas.has(item.esfera)) return false;
     if(state.apenasPrioridade && !item.prioridade) return false;
     if(state.apenasAltaConfianca && item.confianca !== 'alta') return false;
+    if(state.prazo !== 'todos'){
+      const dias = diasRestantes(item.data_fim_vigencia);
+      if(dias === null || dias < 0 || dias > Number(state.prazo)) return false;
+    }
     if(state.busca){
       const q = state.busca.toLowerCase();
       const hay = `${item.titulo||''} ${item.descricao||''} ${item.orgao||''} ${item.municipio||''}`.toLowerCase();
@@ -528,6 +592,10 @@
   });
   document.getElementById('ordenar').addEventListener('change', (e)=>{
     state.ordenar = e.target.value;
+    renderList();
+  });
+  document.getElementById('prazoFiltro').addEventListener('change', (e)=>{
+    state.prazo = e.target.value;
     renderList();
   });
 
