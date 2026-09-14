@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar de Licitações</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f2f4f0;
+    --surface:#ffffff;
+    --surface-2:#e7ebe4;
+    --ink:#182420;
+    --ink-dim:#57645d;
+    --ink-faint:#8b968f;
+    --border:#d7ddd2;
+    --accent:#0f6b52;
+    --accent-ink:#f2fbf7;
+    --accent-soft:#e2f1ea;
+    --urgent:#a02a20;
+    --urgent-soft:#fbe9e6;
+    --warn:#8a5a06;
+    --warn-soft:#fbf0dc;
+    --good:#1d7a4c;
+    --cat-ar:#1d5f8a;
+    --cat-ar-soft:#e2eef6;
+    --cat-pintura:#a15c0a;
+    --cat-pintura-soft:#f7ecdc;
+    --cat-calha:#4a5568;
+    --cat-calha-soft:#e9ebee;
+    --shadow: 0 1px 2px rgba(24,36,32,.06), 0 8px 24px -12px rgba(24,36,32,.18);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12160f;
+      --surface:#1a2019;
+      --surface-2:#212820;
+      --ink:#eef2ec;
+      --ink-dim:#a9b4a6;
+      --ink-faint:#71796f;
+      --border:#2c342a;
+      --accent:#4fbf98;
+      --accent-ink:#0b1611;
+      --accent-soft:#1c2f27;
+      --urgent:#f0958a;
+      --urgent-soft:#3a201d;
+      --warn:#f0c675;
+      --warn-soft:#3a2f14;
+      --good:#6fd19f;
+      --cat-ar:#8dc3ea;
+      --cat-ar-soft:#1b2a34;
+      --cat-pintura:#e7b06f;
+      --cat-pintura-soft:#332a1a;
+      --cat-calha:#b6bcc4;
+      --cat-calha-soft:#262a2f;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.5);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12160f;
+    --surface:#1a2019;
+    --surface-2:#212820;
+    --ink:#eef2ec;
+    --ink-dim:#a9b4a6;
+    --ink-faint:#71796f;
+    --border:#2c342a;
+    --accent:#4fbf98;
+    --accent-ink:#0b1611;
+    --accent-soft:#1c2f27;
+    --urgent:#f0958a;
+    --urgent-soft:#3a201d;
+    --warn:#f0c675;
+    --warn-soft:#3a2f14;
+    --good:#6fd19f;
+    --cat-ar:#8dc3ea;
+    --cat-ar-soft:#1b2a34;
+    --cat-pintura:#e7b06f;
+    --cat-pintura-soft:#332a1a;
+    --cat-calha:#b6bcc4;
+    --cat-calha-soft:#262a2f;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.5);
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block:0 40px;
+  }
+  .mono{font-family:'IBM Plex Mono', ui-monospace, monospace;}
+  .wrap{max-width:1180px; margin-inline:auto;}
+
+  header.top{
+    display:flex; flex-wrap:wrap; gap:20px 32px;
+    align-items:flex-end; justify-content:space-between;
+    padding-block:28px 20px;
+    border-bottom:1px solid var(--border);
+  }
+  .titleblock h1{
+    margin:0; font-size:1.7rem; font-weight:700; letter-spacing:-0.01em;
+    text-wrap:balance;
+  }
+  .titleblock p{margin:6px 0 0; color:var(--ink-dim); font-size:.92rem; max-width:52ch;}
+  .updated{
+    font-size:.78rem; color:var(--ink-faint); text-align:right;
+  }
+  .updated strong{color:var(--ink-dim); font-weight:600;}
+  #liveDot{
+    display:inline-block; width:7px; height:7px; border-radius:50%;
+    background:var(--ink-faint); margin-right:6px; vertical-align:1px;
+  }
+  #liveDot.on{background:var(--accent); box-shadow:0 0 0 3px var(--accent-soft);}
+
+  .stats{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(130px,1fr));
+    gap:10px; margin-block:20px;
+  }
+  .stat{
+    background:var(--surface); border:1px solid var(--border); border-radius:10px;
+    padding:12px 14px;
+  }
+  .stat .n{font-family:'IBM Plex Mono'; font-size:1.5rem; font-weight:600; font-variant-numeric:tabular-nums; line-height:1.1;}
+  .stat .l{font-size:.74rem; color:var(--ink-dim); margin-top:4px; letter-spacing:.02em;}
+  .stat.accent{border-color:var(--accent); background:var(--accent-soft);}
+  .stat.accent .n{color:var(--accent);}
+  .stat.urgent{border-color:var(--urgent); background:var(--urgent-soft);}
+  .stat.urgent .n{color:var(--urgent);}
+
+  .toolbar{
+    position:sticky; top:0; z-index:5;
+    background:var(--bg);
+    padding-block:12px; margin-bottom:6px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    border-bottom:1px solid var(--border);
+  }
+  .chipgroup{display:flex; flex-wrap:wrap; gap:6px;}
+  .chip{
+    font-size:.78rem; padding:6px 11px; border-radius:999px;
+    border:1px solid var(--border); background:var(--surface); color:var(--ink-dim);
+    cursor:pointer; user-select:none; white-space:nowrap;
+    transition:background .1s, color .1s, border-color .1s;
+  }
+  .chip:hover{border-color:var(--ink-faint);}
+  .chip.active{background:var(--ink); border-color:var(--ink); color:var(--bg);}
+  .chip.active.ar{background:var(--cat-ar); border-color:var(--cat-ar); color:#fff;}
+  .chip.active.pintura{background:var(--cat-pintura); border-color:var(--cat-pintura); color:#fff;}
+  .chip.active.calhas{background:var(--cat-calha); border-color:var(--cat-calha); color:#fff;}
+  .chip.active.prioridade{background:var(--urgent); border-color:var(--urgent); color:#fff;}
+
+  .searchbox{
+    flex:1 1 220px; min-width:160px;
+    display:flex; align-items:center; gap:8px;
+    background:var(--surface); border:1px solid var(--border); border-radius:8px;
+    padding:7px 12px;
+  }
+  .searchbox input{
+    border:0; background:transparent; outline:0; color:var(--ink);
+    font-family:inherit; font-size:.86rem; width:100%;
+  }
+  .searchbox svg{flex:none; color:var(--ink-faint);}
+
+  select#ordenar{
+    font-family:inherit; font-size:.8rem; padding:7px 10px; border-radius:8px;
+    border:1px solid var(--border); background:var(--surface); color:var(--ink-dim);
+  }
+
+  .resultcount{font-size:.78rem; color:var(--ink-faint); margin:14px 2px 10px;}
+
+  .list{display:flex; flex-direction:column; gap:10px;}
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:16px 18px; box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:8px;
+  }
+  .card .row1{display:flex; flex-wrap:wrap; gap:8px; align-items:center;}
+  .badge{
+    font-size:.68rem; font-weight:600; letter-spacing:.03em; text-transform:uppercase;
+    padding:3px 8px; border-radius:6px; white-space:nowrap;
+  }
+  .badge.ar{background:var(--cat-ar-soft); color:var(--cat-ar);}
+  .badge.pintura{background:var(--cat-pintura-soft); color:var(--cat-pintura);}
+  .badge.calhas{background:var(--cat-calha-soft); color:var(--cat-calha);}
+  .badge.prioridade{background:var(--urgent-soft); color:var(--urgent);}
+  .badge.baixa{background:var(--surface-2); color:var(--ink-faint);}
+  .badge.orgtag{background:var(--accent-soft); color:var(--accent);}
+
+  .card h3{margin:0; font-size:1rem; font-weight:600; line-height:1.35;}
+  .card .desc{font-size:.85rem; color:var(--ink-dim); line-height:1.5; margin:0;}
+  .meta{
+    display:flex; flex-wrap:wrap; gap:6px 16px; font-size:.78rem; color:var(--ink-dim);
+    margin-top:2px;
+  }
+  .meta b{color:var(--ink); font-weight:600;}
+  .footer-row{
+    display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+    gap:10px; margin-top:4px; padding-top:10px; border-top:1px dashed var(--border);
+  }
+  .prazo{
+    font-family:'IBM Plex Mono'; font-size:.78rem; font-weight:600;
+    padding:4px 9px; border-radius:6px; font-variant-numeric:tabular-nums;
+  }
+  .prazo.ok{background:var(--good); color:#fff; opacity:.85;}
+  .prazo.soon{background:var(--warn-soft); color:var(--warn);}
+  .prazo.urgent{background:var(--urgent-soft); color:var(--urgent);}
+  .prazo.closed{background:var(--surface-2); color:var(--ink-faint);}
+  a.gobtn{
+    font-size:.8rem; font-weight:600; color:var(--accent-ink); background:var(--accent);
+    padding:7px 14px; border-radius:7px; text-decoration:none; white-space:nowrap;
+  }
+  a.gobtn:hover{opacity:.9;}
+
+  .empty{
+    text-align:center; padding:60px 20px; color:var(--ink-faint); font-size:.9rem;
+  }
+
+  details.sources{
+    margin-top:36px; border:1px solid var(--border); border-radius:12px;
+    background:var(--surface); padding:14px 18px;
+  }
+  details.sources summary{cursor:pointer; font-weight:600; font-size:.88rem;}
+  details.sources .src-grid{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:14px; margin-top:14px;
+  }
+  details.sources .src{font-size:.8rem; color:var(--ink-dim); line-height:1.5;}
+  details.sources .src b{display:block; color:var(--ink); font-size:.82rem; margin-bottom:2px;}
+  details.sources a{color:var(--accent);}
+  details.sources .tag{
+    display:inline-block; font-size:.66rem; font-weight:600; text-transform:uppercase;
+    letter-spacing:.03em; padding:1px 6px; border-radius:5px; margin-left:6px;
+    background:var(--accent-soft); color:var(--accent);
+  }
+  details.sources .tag.manual{background:var(--warn-soft); color:var(--warn);}
+
+  @media (max-width:640px){
+    .toolbar{position:static;}
+    .titleblock h1{font-size:1.4rem;}
+    .updated{text-align:left;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="titleblock">
+      <h1>Radar de Licitações — Ar Condicionado, Pintura &amp; Calhas</h1>
+      <p>Oportunidades de prestação de serviços publicadas no PNCP para prefeituras, autarquias e estatais do Estado de São Paulo, com destaque para Vale do Paraíba e ABC Paulista.</p>
+    </div>
+    <div class="updated">
+      <div><span id="liveDot"></span><span id="liveLabel">carregando dados salvos…</span></div>
+      <div>Atualizado em <strong id="updatedAt">—</strong></div>
+    </div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="toolbar">
+    <div class="chipgroup" id="catChips"></div>
+    <div class="chipgroup" id="flagChips"></div>
+    <div class="searchbox">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="busca" type="text" placeholder="Buscar por órgão, município ou palavra do objeto…">
+    </div>
+    <select id="ordenar">
+      <option value="recentes">Mais recentes</option>
+      <option value="prazo">Prazo mais próximo</option>
+      <option value="valor">Maior valor estimado</option>
+    </select>
+  </div>
+
+  <div class="resultcount" id="resultCount"></div>
+  <div class="list" id="list"></div>
+
+  <details class="sources">
+    <summary>Fontes cobertas pelo radar</summary>
+    <div class="src-grid">
+      <div class="src">
+        <b>PNCP — Portal Nacional de Contratações Públicas <span class="tag">automático, diário</span></b>
+        Desde a Lei 14.133/2021, é o ponto de publicação obrigatório de editais, avisos de contratação direta e dispensas de praticamente todos os órgãos públicos do país — prefeituras, governo estadual, autarquias e estatais (Sabesp, parques tecnológicos etc.). É a fonte que este radar consulta automaticamente todos os dias.
+      </div>
+      <div class="src">
+        <b>BEC/SP — Bolsa Eletrônica de Compras <span class="tag manual">checagem manual</span></b>
+        Portal operacional do Governo de SP; a maioria das compras também é replicada no PNCP, mas vale conferir direto em casos específicos.
+        <br><a href="https://www.bec.sp.gov.br/BEC_Comprador_UI/PregaoEletronico.aspx" target="_blank" rel="noopener">Abrir BEC/SP →</a>
+      </div>
+      <div class="src">
+        <b>Portais municipais próprios <span class="tag manual">checagem manual</span></b>
+        Algumas prefeituras do Vale do Paraíba e ABC ainda publicam avisos em seus próprios sites além do PNCP (ex.: São José dos Campos, Santo André, Diadema, Taubaté). Vale um Google dork: <span class="mono">site:saeg.sp.gov.br OR site:santoandre.sp.gov.br "ar condicionado"</span>.
+      </div>
+      <div class="src">
+        <b>BLL / Licitações-e / Portal de Compras Públicas <span class="tag manual">checagem manual</span></b>
+        Plataformas de pregão eletrônico usadas por municípios menores. Sem API pública estável para automação — recomenda-se cadastro como fornecedor para receber alertas por e-mail diretamente da plataforma.
+      </div>
+    </div>
+  </details>
+</div>
+
+<script>
+(function(){
+  const CAT_LABEL = {ar_condicionado:'Ar condicionado', pintura:'Pintura', calhas:'Limpeza de calhas'};
+  const CAT_CLASS = {ar_condicionado:'ar', pintura:'pintura', calhas:'calhas'};
+  const REGIAO_LABEL = {vale_do_paraiba:'Vale do Paraíba', abc_paulista:'ABC Paulista', outras_sp:'Outras regiões SP'};
+
+  const state = {
+    categorias: new Set(),      // vazio = todas
+    apenasPrioridade: false,
+    apenasAltaConfianca: false,
+    busca: '',
+    ordenar: 'recentes',
+  };
+
+  let allItems = [];
+  let meta = {};
+
+  function fmtDate(iso){
+    if(!iso) return '—';
+    try{
+      const d = new Date(iso);
+      return new Intl.DateTimeFormat('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'}).format(d);
+    }catch(e){return '—';}
+  }
+  function fmtMoney(v){
+    if(v === null || v === undefined) return null;
+    try{ return new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0}).format(v); }
+    catch(e){ return null; }
+  }
+  function diasRestantes(iso){
+    if(!iso) return null;
+    const fim = new Date(iso).getTime();
+    if(isNaN(fim)) return null;
+    return Math.ceil((fim - Date.now()) / 86400000);
+  }
+  function escapeHtml(s){
+    return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function renderStats(){
+    const el = document.getElementById('stats');
+    const total = allItems.length;
+    const alta = allItems.filter(i=>i.confianca==='alta').length;
+    const prior = allItems.filter(i=>i.prioridade).length;
+    const vp = allItems.filter(i=>i.regiao==='vale_do_paraiba').length;
+    const abc = allItems.filter(i=>i.regiao==='abc_paulista').length;
+    el.innerHTML = `
+      <div class="stat"><div class="n">${total}</div><div class="l">Oportunidades abertas</div></div>
+      <div class="stat accent"><div class="n">${alta}</div><div class="l">Alta confiança de match</div></div>
+      <div class="stat urgent"><div class="n">${prior}</div><div class="l">Dispensa / contratação direta</div></div>
+      <div class="stat"><div class="n">${vp}</div><div class="l">Vale do Paraíba</div></div>
+      <div class="stat"><div class="n">${abc}</div><div class="l">ABC Paulista</div></div>
+    `;
+  }
+
+  function renderChips(){
+    const cats = document.getElementById('catChips');
+    cats.innerHTML = Object.entries(CAT_LABEL).map(([k,label])=>{
+      const active = state.categorias.has(k);
+      return `<button class="chip ${CAT_CLASS[k]} ${active?'active':''}" data-cat="${k}">${label}</button>`;
+    }).join('');
+    cats.querySelectorAll('.chip').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const k = btn.dataset.cat;
+        if(state.categorias.has(k)) state.categorias.delete(k); else state.categorias.add(k);
+        renderChips(); renderList();
+      });
+    });
+
+    const flags = document.getElementById('flagChips');
+    flags.innerHTML = `
+      <button class="chip prioridade ${state.apenasPrioridade?'active':''}" id="chipPrior">Só dispensa/contratação direta</button>
+      <button class="chip ${state.apenasAltaConfianca?'active':''}" id="chipAlta">Só alta confiança</button>
+    `;
+    document.getElementById('chipPrior').addEventListener('click', ()=>{
+      state.apenasPrioridade = !state.apenasPrioridade; renderChips(); renderList();
+    });
+    document.getElementById('chipAlta').addEventListener('click', ()=>{
+      state.apenasAltaConfianca = !state.apenasAltaConfianca; renderChips(); renderList();
+    });
+  }
+
+  function matches(item){
+    if(state.categorias.size && !item.categorias.some(c=>state.categorias.has(c))) return false;
+    if(state.apenasPrioridade && !item.prioridade) return false;
+    if(state.apenasAltaConfianca && item.confianca !== 'alta') return false;
+    if(state.busca){
+      const q = state.busca.toLowerCase();
+      const hay = `${item.titulo||''} ${item.descricao||''} ${item.orgao||''} ${item.municipio||''}`.toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function sortItems(items){
+    const copy = items.slice();
+    if(state.ordenar === 'recentes'){
+      copy.sort((a,b)=> new Date(b.data_publicacao||0) - new Date(a.data_publicacao||0));
+    } else if(state.ordenar === 'prazo'){
+      copy.sort((a,b)=>{
+        const da = a.data_fim_vigencia ? new Date(a.data_fim_vigencia).getTime() : Infinity;
+        const db_ = b.data_fim_vigencia ? new Date(b.data_fim_vigencia).getTime() : Infinity;
+        return da - db_;
+      });
+    } else if(state.ordenar === 'valor'){
+      copy.sort((a,b)=> (b.valor_global||0) - (a.valor_global||0));
+    }
+    return copy;
+  }
+
+  function cardHtml(item){
+    const dias = diasRestantes(item.data_fim_vigencia);
+    let prazoClass = 'ok', prazoText = item.data_fim_vigencia ? `${fmtDate(item.data_fim_vigencia)}` : 'sem prazo';
+    if(dias !== null){
+      if(dias < 0){ prazoClass='closed'; prazoText = 'prazo encerrado'; }
+      else if(dias <= 3){ prazoClass='urgent'; prazoText = dias===0?'encerra hoje':`${dias} dia(s) restante(s)`; }
+      else if(dias <= 7){ prazoClass='soon'; prazoText = `${dias} dias restantes`; }
+      else { prazoText = `até ${fmtDate(item.data_fim_vigencia)}`; }
+    }
+    const catBadges = item.categorias.map(c=>`<span class="badge ${CAT_CLASS[c]}">${CAT_LABEL[c]}</span>`).join('');
+    const prioBadge = item.prioridade ? `<span class="badge prioridade">${escapeHtml(item.tipo_documento||'Contratação direta')}</span>` : '';
+    const confBadge = item.confianca !== 'alta' ? `<span class="badge baixa">verificar edital</span>` : '';
+    const orgTag = item.orgao_destaque ? `<span class="badge orgtag">${escapeHtml(item.orgao_destaque)}</span>` : '';
+    const regiaoLabel = REGIAO_LABEL[item.regiao] || '';
+    const valor = fmtMoney(item.valor_global);
+
+    return `
+      <article class="card">
+        <div class="row1">${catBadges}${prioBadge}${orgTag}${confBadge}</div>
+        <h3>${escapeHtml(item.titulo || 'Edital sem título')}</h3>
+        ${item.descricao ? `<p class="desc">${escapeHtml(item.descricao)}</p>` : ''}
+        <div class="meta">
+          <span><b>${escapeHtml(item.orgao || '—')}</b></span>
+          <span>${escapeHtml(item.municipio||'—')} · ${escapeHtml(item.uf||'')}${regiaoLabel && item.regiao!=='outras_sp' ? ' · '+regiaoLabel : ''}</span>
+          <span>${escapeHtml(item.modalidade||'—')}</span>
+          ${valor ? `<span class="mono">${valor}</span>` : ''}
+        </div>
+        <div class="footer-row">
+          <span class="prazo ${prazoClass}">${prazoText}</span>
+          ${item.link ? `<a class="gobtn" href="${item.link}" target="_blank" rel="noopener">Ver no PNCP →</a>` : ''}
+        </div>
+      </article>`;
+  }
+
+  function renderList(){
+    const filtered = sortItems(allItems.filter(matches));
+    document.getElementById('resultCount').textContent =
+      `${filtered.length} de ${allItems.length} oportunidade(s)`;
+    const list = document.getElementById('list');
+    if(!filtered.length){
+      list.innerHTML = `<div class="empty">Nenhuma oportunidade encontrada com esses filtros.</div>`;
+      return;
+    }
+    list.innerHTML = filtered.map(cardHtml).join('');
+  }
+
+  document.getElementById('busca').addEventListener('input', (e)=>{
+    state.busca = e.target.value.trim();
+    renderList();
+  });
+  document.getElementById('ordenar').addEventListener('change', (e)=>{
+    state.ordenar = e.target.value;
+    renderList();
+  });
+
+  function setUpdated(iso){
+    document.getElementById('updatedAt').textContent = iso ? fmtDate(iso) + ' ' + new Date(iso).toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}) : '—';
+  }
+
+  function boot(bootstrapData){
+    allItems = bootstrapData.items || [];
+    meta = bootstrapData;
+    setUpdated(bootstrapData.gerado_em);
+    renderStats(); renderChips(); renderList();
+  }
+
+  fetch('data/bootstrap.json?t=' + Date.now())
+    .then(r=>r.json())
+    .then(data=>{
+      boot(data);
+      document.getElementById('liveDot').classList.add('on');
+      document.getElementById('liveLabel').textContent = 'atualizado automaticamente todo dia (GitHub Actions)';
+    })
+    .catch(()=>{
+      document.getElementById('liveLabel').textContent = 'falha ao carregar dados';
+      document.getElementById('list').innerHTML = '<div class="empty">Não foi possível carregar os dados. Tente recarregar a página.</div>';
+    });
+})();
+</script>
+</body>
+</html>

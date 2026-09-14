@@ -1,0 +1,107 @@
+name: Atualizar radar de licitações
+
+on:
+  schedule:
+    # 10:00 UTC = 07:00 America/Sao_Paulo, todo dia
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: radar-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Buscar licitações e montar diff
+        id: build
+        run: python3 scripts/build_site_data.py
+
+      - name: Ler diff
+        id: diff
+        run: |
+          {
+            echo "novas=$(jq -r '.novas' /tmp/radar_diff.json)"
+            echo "removidas=$(jq -r '.removidas' /tmp/radar_diff.json)"
+            echo "prioritarias=$(jq -r '.novas_prioritarias' /tmp/radar_diff.json)"
+            echo "total=$(jq -r '.total_atual' /tmp/radar_diff.json)"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Commit dos dados atualizados
+        run: |
+          git config user.name "licitaworker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/bootstrap.json docs/data/bootstrap.previous.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: atualizacao diaria do radar ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "Sem mudancas para commitar."
+          fi
+
+      - name: Avisar novidades via Issue
+        if: ${{ steps.diff.outputs.novas != '0' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const diff = JSON.parse(fs.readFileSync('/tmp/radar_diff.json', 'utf8'));
+
+            const label = 'radar-diario';
+            const title = 'Radar de licitações — novidades diárias';
+
+            // garante que a label existe
+            try {
+              await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name: label });
+            } catch (e) {
+              await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name: label, color: '0f6b52', description: 'Avisos automaticos do radar de licitacoes' });
+            }
+
+            const catLabel = { ar_condicionado: 'Ar condicionado', pintura: 'Pintura', calhas: 'Limpeza de calhas' };
+            const linhas = diff.novas_items.slice(0, 30).map(i => {
+              const cats = (i.categorias || [i.categoria]).map(c => catLabel[c] || c).join(', ');
+              const prio = i.prioridade ? ' 🔴 **DISPENSA/CONTRATAÇÃO DIRETA**' : '';
+              return `- [${i.titulo || 'Edital'}](${i.link}) — ${i.orgao || '?'} (${i.municipio || '?'}/${i.uf || ''}) — ${cats}${prio}`;
+            }).join('\n');
+
+            const corpo = [
+              `**${diff.novas} nova(s)** oportunidade(s) desde a última checagem` +
+                (diff.novas_prioritarias ? ` — **${diff.novas_prioritarias} prioritária(s)** (Dispensa/Aviso de Contratação Direta)` : '') + '.',
+              `${diff.removidas} encerrada(s)/removida(s). Total abertas agora: ${diff.total_atual}.`,
+              '',
+              linhas || '_(sem detalhes)_',
+              '',
+              `Painel completo: https://${context.repo.owner}.github.io/${context.repo.repo}/`,
+            ].join('\n');
+
+            const existentes = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: label, per_page: 1,
+            });
+
+            if (existentes.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existentes.data[0].number, body: corpo,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body: corpo, labels: [label],
+              });
+            }
