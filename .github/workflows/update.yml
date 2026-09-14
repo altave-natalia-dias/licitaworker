@@ -43,7 +43,7 @@ jobs:
             echo "total=$(jq -r '.total_atual' /tmp/radar_diff.json)"
           } >> "$GITHUB_OUTPUT"
 
-      - name: Commit dos dados atualizados
+      - name: Commit dos dados atualizados (repo privado, historico)
         run: |
           git config user.name "licitaworker-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -53,6 +53,26 @@ jobs:
             git push
           else
             echo "Sem mudancas para commitar."
+          fi
+
+      - name: Publicar site publico (licitaworker-site / GitHub Pages)
+        env:
+          PAGES_DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+        run: |
+          rm -rf /tmp/site-publish
+          git clone --depth 1 "https://x-access-token:${PAGES_DEPLOY_TOKEN}@github.com/altave-natalia-dias/licitaworker-site.git" /tmp/site-publish
+          cp docs/index.html /tmp/site-publish/index.html
+          mkdir -p /tmp/site-publish/data
+          cp docs/data/bootstrap.json /tmp/site-publish/data/bootstrap.json
+          cd /tmp/site-publish
+          git config user.name "licitaworker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: atualizacao diaria ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "Site publico ja esta atualizado."
           fi
 
       - name: Avisar novidades via Issue
@@ -87,7 +107,7 @@ jobs:
               '',
               linhas || '_(sem detalhes)_',
               '',
-              `Painel completo: https://${context.repo.owner}.github.io/${context.repo.repo}/`,
+              `Painel completo: https://altave-natalia-dias.github.io/licitaworker-site/`,
             ].join('\n');
 
             const existentes = await github.rest.issues.listForRepo({

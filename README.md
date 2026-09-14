@@ -7,7 +7,11 @@ avisos de contratação direta / dispensa, além de pregões de prefeituras, aut
 estatais (Sabesp, parques tecnológicos etc.).
 
 **Painel ao vivo (grátis, 24/7, GitHub Pages):**
-https://altave-natalia-dias.github.io/licitaworker/
+https://altave-natalia-dias.github.io/licitaworker-site/
+
+Este repositório (`licitaworker`) fica **privado** — é só a fonte do script e da GitHub
+Action. O painel público é publicado automaticamente todo dia no repositório
+`licitaworker-site` (só o dashboard + os dados públicos do PNCP, nada do código-fonte).
 
 ## O que tem aqui
 
