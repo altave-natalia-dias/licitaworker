@@ -1,20 +1,716 @@
 {
-  "gerado_em": "2026-10-16T14:25:05+00:00",
-  "total": 472,
+  "gerado_em": "2026-10-17T13:21:56+00:00",
+  "total": 492,
   "por_categoria": {
-    "ar_condicionado": 193,
-    "pintura": 149,
+    "ar_condicionado": 201,
+    "pintura": 158,
     "calhas": 27,
-    "cftv": 183
+    "cftv": 192
   },
   "por_regiao": {
-    "vale_do_paraiba": 37,
+    "vale_do_paraiba": 39,
     "abc_paulista": 8,
-    "outras_sp": 427
+    "outras_sp": 445
   },
-  "prioritarias": 46,
-  "confianca_alta": 144,
+  "prioritarias": 50,
+  "confianca_alta": 153,
   "items": [
+    {
+      "id": "46680500000112-1-000371_2026",
+      "numero_controle_pncp": "46680500000112-1-000371/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 116/2026",
+      "descricao": "REGISTRO DE PREÇOS PARA FUTURA CONTRATAÇAÕ DE EMPRESA ESPECIALIZADA NA PRESTAÇAO DE SERVIÇO PARA LOCACAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS PARA LOCAÇÃO DE KM DE ONIBUS, MICRO-ONIBUS E VANS POR DIÁRIAS.",
+      "orgao": "MUNICIPIO DE GUARATINGUETA",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Guaratinguetá",
+      "uf": "SP",
+      "regiao": "vale_do_paraiba",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T18:26:52.392913195",
+      "data_fim_vigencia": "2026-11-03T09:00",
+      "link": "https://pncp.gov.br/compras/46680500000112/2026/371",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado"
+      ]
+    },
+    {
+      "id": "63025530000104-1-004149_2026",
+      "numero_controle_pncp": "63025530000104-1-004149/2026",
+      "categoria": "cftv",
+      "categoria_label": "Câmeras / CFTV",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº 153/2026",
+      "descricao": "Computadores, monitores, filamentos de impressoras 3d, tablet, câmeras de segurança",
+      "orgao": "UNIVERSIDADE DE SAO PAULO",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "São Carlos",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T18:04:19.729420",
+      "data_fim_vigencia": "2026-11-03T08:00",
+      "link": "https://pncp.gov.br/compras/63025530000104/2026/4149",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
+      "categorias": [
+        "cftv"
+      ]
+    },
+    {
+      "id": "45395704000149-1-000601_2026",
+      "numero_controle_pncp": "45395704000149-1-000601/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº 10/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços comuns de engenharia para execução de pintura predial interna e externa no Espaço Cine Santana (Patrimônio Histórico Cultural do Município), incluindo o tratamento de umidade e a recomposição do reboco, com fornecimento total de material, mão de obra, ferramentas e equipamentos necessários, conforme as especificações técnicas, quantitativos e diretrizes de preservação estabelecidas pelo COMPHAC constantes neste instrumento conforme especificações detalhadas no edital, termo de referência e seus anexos.",
+      "orgao": "FUNDACAO CULTURAL CASSIANO RICARDO",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Municipal",
+      "poder": "Executivo",
+      "municipio": "São José dos Campos",
+      "uf": "SP",
+      "regiao": "vale_do_paraiba",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T17:46:27.564682",
+      "data_fim_vigencia": "2026-11-05T10:00",
+      "link": "https://pncp.gov.br/compras/45395704000149/2026/601",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
+      "categorias": [
+        "pintura"
+      ]
+    },
+    {
+      "id": "43728245000142-1-000280_2026",
+      "numero_controle_pncp": "43728245000142-1-000280/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": true,
+      "confianca": "alta",
+      "titulo": "Aviso de Contratação Direta nº 249/2026",
+      "descricao": "Contratação de empresa especializada para execução de serviços de substituição pontual de trechos da rede hidráulica da Escola de Negócios do SEBRAE-SP. 3.1. Serviços e recuperação estrutural / 3.2. Execução de identificações, pinturas, testes e descartes / 3.3. Fornecimento e substituição de trechos hidráulicos",
+      "orgao": "SERVICO DE APOIO AS MICRO E PEQ EMPRESAS DE SAO PAULO",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Não se aplica",
+      "poder": "Não se aplica",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Dispensa",
+      "tipo_documento": "Aviso de Contratação Direta",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T17:40:24.866446",
+      "data_fim_vigencia": "2026-10-23T08:59",
+      "link": "https://pncp.gov.br/compras/43728245000142/2026/280",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
+      "categorias": [
+        "pintura"
+      ]
+    },
+    {
+      "id": "46381000000180-1-000044_2026",
+      "numero_controle_pncp": "46381000000180-1-000044/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 42/2026",
+      "descricao": "Aquisição de 04 (quatro) veículos caracterizados para atender às necessidades da Coordenadoria de Políticas para a Juventude da Secretaria da Justiça e Cidadania.",
+      "orgao": "SECRETARIA DA JUSTICA E DA DEFESA DA CIDADANIA",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T17:23:58.057532",
+      "data_fim_vigencia": "2026-11-03T09:59",
+      "link": "https://pncp.gov.br/compras/46381000000180/2026/44",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado"
+      ]
+    },
+    {
+      "id": "45301264000113-1-000332_2026",
+      "numero_controle_pncp": "45301264000113-1-000332/2026",
+      "categoria": "cftv",
+      "categoria_label": "Câmeras / CFTV",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº PE31/2026/2026",
+      "descricao": "Contratação de empresa especializada para a prestação de serviços de instalação, configuração, testes e colocação em funcionamento de sistema de monitoramento por vídeo (CFTV), com fornecimento e instalação dos respectivos equipamentos, peças, materiais e acessórios, incluindo câmeras de segurança, gravadores, dispositivos de armazenamento, fontes de alimentação, cabeamento, conectores e demais componentes necessários à perfeita execução do objeto, com integração ao serviço de monitoramento já contratado por meio do Pregão Eletrônico nº 45/2024, conforme especificações e quantitativos estabelecidos no ANEXO I – Termo de Referência.",
+      "orgao": "MUNICIPIO DE MOGI-GUACU",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Mogi Guaçu",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T17:17:08.152640545",
+      "data_fim_vigencia": "2026-11-10T09:00",
+      "link": "https://pncp.gov.br/compras/45301264000113/2026/332",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
+      "categorias": [
+        "cftv"
+      ]
+    },
+    {
+      "id": "43052497000102-1-000536_2026",
+      "numero_controle_pncp": "43052497000102-1-000536/2026",
+      "categoria": "cftv",
+      "categoria_label": "Câmeras / CFTV",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 748/2026",
+      "descricao": "Aquisição de materiais permanentes de Tecnologia da Informação e Comunicação destinados à modernização, ampliação e fortalecimento da infraestrutura tecnológica do Departamento de Estradas de Rodagem do Estado de São Paulo – DER/SP.",
+      "orgao": "DEPARTAMENTO DE ESTRADAS DE RODAGEM",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T16:29:19.425926",
+      "data_fim_vigencia": "2026-11-03T09:00",
+      "link": "https://pncp.gov.br/compras/43052497000102/2026/536",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
+      "categorias": [
+        "cftv"
+      ]
+    },
+    {
+      "id": "46319000000150-1-000384_2026",
+      "numero_controle_pncp": "46319000000150-1-000384/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": true,
+      "confianca": "alta",
+      "titulo": "Aviso de Contratação Direta nº 1017/2026",
+      "descricao": "tintas e materiais correlatos para pintura",
+      "orgao": "MUNICIPIO DE GUARULHOS",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Guarulhos",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Dispensa",
+      "tipo_documento": "Aviso de Contratação Direta",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T16:27:16.686257",
+      "data_fim_vigencia": "2026-10-22T08:00",
+      "link": "https://pncp.gov.br/compras/46319000000150/2026/384",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
+      "categorias": [
+        "pintura"
+      ]
+    },
+    {
+      "id": "96291141000180-1-007066_2026",
+      "numero_controle_pncp": "96291141000180-1-007066/2026",
+      "categoria": "cftv",
+      "categoria_label": "Câmeras / CFTV",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 38/2026",
+      "descricao": "Aquisição de materiais para realização da reforma da cozinha , através de recursos da FUNPESP",
+      "orgao": "SAO PAULO SECRETARIA DA ADMINISTRACAO PENITENCIARIA",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "Ribeirão Preto",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T16:24:07.123484",
+      "data_fim_vigencia": "2026-11-04T09:00",
+      "link": "https://pncp.gov.br/compras/96291141000180/2026/7066",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
+      "categorias": [
+        "cftv"
+      ]
+    },
+    {
+      "id": "46444063000138-1-000307_2026",
+      "numero_controle_pncp": "46444063000138-1-000307/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº PE 68/2026",
+      "descricao": "contratação de empresa especializada para o fornecimento e instalação de aparelhos de ar-condicionado, destinados à Unidade de Saúde Posto das Lavras, incluindo todos os materiais, acessórios e componentes necessários à adequada instalação e ao perfeito funcionamento dos equipamentos.",
+      "orgao": "MUNICIPIO DE SOCORRO",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Socorro",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T15:25:35.520583157",
+      "data_fim_vigencia": "2026-11-06T09:00",
+      "link": "https://pncp.gov.br/compras/46444063000138/2026/307",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado"
+      ]
+    },
+    {
+      "id": "44441475000199-1-000059_2026",
+      "numero_controle_pncp": "44441475000199-1-000059/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 30/2026",
+      "descricao": "registro de preço para contratação de empresa destinadas a Locação de Equipamentos e contratação de serviços necessários para a realização das Festividades Municipais, pré-agendadas em calendário único da Administração Municipal.",
+      "orgao": "MUNICIPIO DE GLICERIO",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Glicério",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Presencial",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T15:02:23.023108990",
+      "data_fim_vigencia": "2026-11-04T08:30",
+      "link": "https://pncp.gov.br/compras/44441475000199/2026/59",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado",
+        "pintura"
+      ]
+    },
+    {
+      "id": "46377800000127-1-004529_2026",
+      "numero_controle_pncp": "46377800000127-1-004529/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº 225/2026",
+      "descricao": "Contratação de serviço de pintura para o 55º BPM/I",
+      "orgao": "SAO PAULO SECRETARIA DA SEGURANCA PUBLICA",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "Sorocaba",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T14:42:25.902136",
+      "data_fim_vigencia": "2026-11-05T08:00",
+      "link": "https://pncp.gov.br/compras/46377800000127/2026/4529",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
+      "categorias": [
+        "pintura"
+      ]
+    },
+    {
+      "id": "47563325000146-1-000074_2026",
+      "numero_controle_pncp": "47563325000146-1-000074/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 47/2026",
+      "descricao": "AQUISIÇÃO DE EQUIPAMENTOS PARA IMPLANTAÇÃO DO ESPAÇO JUVENTUDE",
+      "orgao": "MUNICIPIO DE PIQUETE",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Piquete",
+      "uf": "SP",
+      "regiao": "vale_do_paraiba",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T14:33:23.322322969",
+      "data_fim_vigencia": "2026-10-29T09:00",
+      "link": "https://pncp.gov.br/compras/47563325000146/2026/74",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado",
+        "cftv"
+      ]
+    },
+    {
+      "id": "45332095000189-1-000181_2026",
+      "numero_controle_pncp": "45332095000189-1-000181/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 136/2026",
+      "descricao": "REGISTRO DE PREÇOS PARA FUTURAS E EVENTUAIS CONTRATAÇÕES DE SERVIÇOS DE INFRAESTRUTURA, APOIO OPERACIONAL, TÉCNICO E RECREATIVO PARA ATENDIMENTO AOS EVENTOS REALIZADOS OU APOIADOS PELO MUNICÍPIO DE MOGI MIRIM/SP, COMPREENDENDO LOCAÇÃO, INSTALAÇÃO, MONTAGEM, OPERAÇÃO, MANUTENÇÃO E DESMONTAGEM DE ESTRUTURAS E EQUIPAMENTOS, BEM COMO PRESTAÇÃO DE SERVIÇOS CORRELATOS",
+      "orgao": "MUNICIPIO DE MOGI-MIRIM",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Mogi Mirim",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T13:59:45.203164",
+      "data_fim_vigencia": "2026-11-10T09:00",
+      "link": "https://pncp.gov.br/compras/45332095000189/2026/181",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado",
+        "cftv",
+        "pintura"
+      ]
+    },
+    {
+      "id": "45318581000142-1-000090_2026",
+      "numero_controle_pncp": "45318581000142-1-000090/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 00063/2026",
+      "descricao": "REGISTRO DE PREÇOS OBJETIVANDO A\nAQUISIÇÃO DE MATERIAL DE CONSTRUÇÃO, CONFORME CONDIÇÕES, QUANTIDADES E EXIGÊNCIAS ESTABELECIDAS NESTE EDITAL E SEUS ANEXOS.",
+      "orgao": "MUNICIPIO DE RESTINGA",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Restinga",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T13:41:48.996495",
+      "data_fim_vigencia": "2026-11-04T08:30:26",
+      "link": "https://pncp.gov.br/compras/45318581000142/2026/90",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
+      "categorias": [
+        "pintura"
+      ]
+    },
+    {
+      "id": "96291141000180-1-007039_2026",
+      "numero_controle_pncp": "96291141000180-1-007039/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 90/2026",
+      "descricao": "Aquisição de materiais para reforma da cozinha da Penitenciária I de São Vicente",
+      "orgao": "SAO PAULO SECRETARIA DA ADMINISTRACAO PENITENCIARIA",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "São Vicente",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T13:40:32.140852",
+      "data_fim_vigencia": "2026-10-29T09:00",
+      "link": "https://pncp.gov.br/compras/96291141000180/2026/7039",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
+      "categorias": [
+        "cftv",
+        "pintura"
+      ]
+    },
+    {
+      "id": "48664304000180-1-000255_2026",
+      "numero_controle_pncp": "48664304000180-1-000255/2026",
+      "categoria": "pintura",
+      "categoria_label": "Pintura",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº 115 | Processo 264/2026",
+      "descricao": "SERVICO DE PINTURA E REVITALIZACAO DE ABRIGO DE PASSAGEIROS  INCLUINDO O PREPARO DAS SUPERFICIES  FORNECIMENTO DE MATERIAIS  EQUIPAMENTOS  MAO DE OBRA E APLICACAO DE PINTURA NA COR AZUL",
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Guariba",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T13:25:47.085526377",
+      "data_fim_vigencia": "2026-11-05T07:30",
+      "link": "https://pncp.gov.br/compras/48664304000180/2026/255",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
+      "categorias": [
+        "pintura"
+      ]
+    },
+    {
+      "id": "18960233000100-1-000028_2026",
+      "numero_controle_pncp": "18960233000100-1-000028/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 11/2026",
+      "descricao": "REGISTRO DE PREÇOS PARA AQUISIÇÕES FUTURAS DE MATERIAIS ODONTOLÓGICOS (MATERIAIS DE CONSUMO E EQUIPAMENTOS) PARA 30 (TRINTA) ENTES CONSORCIADOS PELO PRAZO DE 12 (DOZE) MESES.",
+      "orgao": "CONSORCIO INTERMUNICIPAL DO OESTE PAULISTA",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Não se aplica",
+      "poder": "Executivo",
+      "municipio": "Presidente Prudente",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T12:57:48.052329484",
+      "data_fim_vigencia": "2026-10-27T09:00",
+      "link": "https://pncp.gov.br/compras/18960233000100/2026/28",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado",
+        "cftv"
+      ]
+    },
+    {
+      "id": "46634515000144-1-000087_2026",
+      "numero_controle_pncp": "46634515000144-1-000087/2026",
+      "categoria": "cftv",
+      "categoria_label": "Câmeras / CFTV",
+      "prioridade": false,
+      "confianca": "baixa",
+      "titulo": "Edital nº 25/2026",
+      "descricao": "Aquisição de mobiliários e equipamentos, em atendimento ao Termo de Compromisso nº 202240787-6, Processo nº 23400.000623/2022-99, firmado entre o Município de Areiópolis e o Fundo Nacional de Desenvolvimento da Educação - FNDE, no âmbito do Plano de Ações Articuladas - PAR, conforme condições, quantidades e exigências estabelecidas neste Termo de Referência e demais documentos integrantes do processo, conforme condições, quantidade e exigências estabelecidas neste Edital e seus anexos.",
+      "orgao": "MUNICIPIO DE AREIOPOLIS",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Areiópolis",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T11:50:04.046357181",
+      "data_fim_vigencia": "2026-11-03T09:00",
+      "link": "https://pncp.gov.br/compras/46634515000144/2026/87",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
+      "categorias": [
+        "cftv"
+      ]
+    },
+    {
+      "id": "44428506000171-1-000413_2026",
+      "numero_controle_pncp": "44428506000171-1-000413/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": true,
+      "confianca": "baixa",
+      "titulo": "Edital de Chamamento Público nº 40000/2026",
+      "descricao": "CHAMADA PÚBLICA PARA CREDENCIAMENTO DE FORNECEDORES VISANDO A AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS DA AGRICULTURA FAMILIAR E DO EMPREENDEDOR FAMILIAR RURAL, PARA O ATENDIMENTO AO PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR - PNAE",
+      "orgao": "MUNICIPIO DE ANDRADINA",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Prefeitura",
+      "esfera": "Municipal",
+      "poder": "Não se aplica",
+      "municipio": "Andradina",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Dispensa",
+      "tipo_documento": "Edital de Chamamento Público",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T11:48:12.524073655",
+      "data_fim_vigencia": "2026-11-09T16:31",
+      "link": "https://pncp.gov.br/compras/44428506000171/2026/413",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
+      "categorias": [
+        "ar_condicionado"
+      ]
+    },
+    {
+      "id": "63025530000104-1-004135_2026",
+      "numero_controle_pncp": "63025530000104-1-004135/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": false,
+      "confianca": "alta",
+      "titulo": "Edital nº 120/2026",
+      "descricao": "Manutenção preventiva em sistema de climatização/exaustão com substituição parcial de peças.",
+      "orgao": "UNIVERSIDADE DE SAO PAULO",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Estadual",
+      "poder": "Executivo",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Pregão - Eletrônico",
+      "tipo_documento": "Edital",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T11:37:51.971545",
+      "data_fim_vigencia": "2026-11-05T09:30",
+      "link": "https://pncp.gov.br/compras/63025530000104/2026/4135",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
+      "categorias": [
+        "ar_condicionado"
+      ]
+    },
+    {
+      "id": "51864114000110-1-000136_2026",
+      "numero_controle_pncp": "51864114000110-1-000136/2026",
+      "categoria": "cftv",
+      "categoria_label": "Câmeras / CFTV",
+      "prioridade": true,
+      "confianca": "baixa",
+      "titulo": "Aviso de Contratação Direta nº CMJ-2026-122-1/2026",
+      "descricao": "FORNECIMENTO E INSTALAÇÃO DE PELÍCULAS EM VIDRO (CONFORME TERMO DE REFERENCIA)",
+      "orgao": "CAMARA MUNICIPAL DE JUNDIAI",
+      "org_tipo": "prefeitura",
+      "orgao_destaque": "Câmara Municipal",
+      "esfera": "Municipal",
+      "poder": "Legislativo",
+      "municipio": "Jundiaí",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Dispensa",
+      "tipo_documento": "Aviso de Contratação Direta",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T11:26:07.631058174",
+      "data_fim_vigencia": "2026-10-22T08:59",
+      "link": "https://pncp.gov.br/compras/51864114000110/2026/136",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
+      "categorias": [
+        "cftv"
+      ]
+    },
+    {
+      "id": "00509968000148-1-003552_2026",
+      "numero_controle_pncp": "00509968000148-1-003552/2026",
+      "categoria": "ar_condicionado",
+      "categoria_label": "Ar condicionado",
+      "prioridade": true,
+      "confianca": "alta",
+      "titulo": "Aviso de Contratação Direta nº 200/2026",
+      "descricao": "Contratação de pessoa jurídica para prestação dos serviços de instalação de sistema de ar-condicionado, com fornecimento de todos os materiais, insumos, acessórios e mão de obra necessários, no 19º andar do Edifício-Sede.",
+      "orgao": "TRIBUNAL SUPERIOR DO TRABALHO",
+      "org_tipo": null,
+      "orgao_destaque": null,
+      "esfera": "Federal",
+      "poder": "Judiciário",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "regiao": "outras_sp",
+      "modalidade": "Dispensa",
+      "tipo_documento": "Aviso de Contratação Direta",
+      "situacao": "Divulgada no PNCP",
+      "valor_global": null,
+      "data_publicacao": "2026-10-16T11:23:52.101800",
+      "data_fim_vigencia": "2026-10-22T08:00",
+      "link": "https://pncp.gov.br/compras/00509968000148/2026/3552",
+      "fonte": "PNCP",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
+      "categorias": [
+        "ar_condicionado"
+      ]
+    },
     {
       "id": "48031918000124-1-002900_2026",
       "numero_controle_pncp": "48031918000124-1-002900/2026",
@@ -40,7 +736,7 @@
       "data_fim_vigencia": "2026-10-23T08:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2900",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -70,7 +766,7 @@
       "data_fim_vigencia": "2026-11-05T07:59",
       "link": "https://pncp.gov.br/compras/46634424000109/2026/110",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -100,7 +796,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2899",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -130,7 +826,7 @@
       "data_fim_vigencia": "2026-11-04T09:00",
       "link": "https://pncp.gov.br/compras/46634374000160/2026/142",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -160,7 +856,7 @@
       "data_fim_vigencia": "2026-11-04T08:30",
       "link": "https://pncp.gov.br/compras/46596151000155/2026/1484",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -190,7 +886,7 @@
       "data_fim_vigencia": "2026-10-29T08:00",
       "link": "https://pncp.gov.br/compras/46634168000150/2026/259",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -220,7 +916,7 @@
       "data_fim_vigencia": "2026-11-05T09:15",
       "link": "https://pncp.gov.br/compras/45685872000179/2026/373",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -250,7 +946,7 @@
       "data_fim_vigencia": "2026-10-29T08:30",
       "link": "https://pncp.gov.br/compras/46465126000132/2026/35",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -280,7 +976,7 @@
       "data_fim_vigencia": "2026-10-29T13:45",
       "link": "https://pncp.gov.br/compras/45291234000173/2026/149",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -310,7 +1006,7 @@
       "data_fim_vigencia": "2026-11-04T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4121",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -340,7 +1036,7 @@
       "data_fim_vigencia": "2026-11-03T08:45",
       "link": "https://pncp.gov.br/compras/45279643000154/2026/85",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -370,7 +1066,7 @@
       "data_fim_vigencia": "2026-11-04T09:00",
       "link": "https://pncp.gov.br/compras/44919918000104/2026/215",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -400,7 +1096,7 @@
       "data_fim_vigencia": "2026-10-21T10:00",
       "link": "https://pncp.gov.br/compras/05499294000161/2026/60",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -430,7 +1126,7 @@
       "data_fim_vigencia": "2026-11-03T08:59",
       "link": "https://pncp.gov.br/compras/45780087000103/2026/121",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -460,7 +1156,7 @@
       "data_fim_vigencia": "2026-11-03T09:00",
       "link": "https://pncp.gov.br/compras/10882594000165/2026/617",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -490,7 +1186,7 @@
       "data_fim_vigencia": "2026-10-26T00:00",
       "link": "https://pncp.gov.br/compras/58987629000157/2026/452",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -520,7 +1216,7 @@
       "data_fim_vigencia": "2026-10-29T09:30",
       "link": "https://pncp.gov.br/compras/45167111000125/2026/52",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -551,7 +1247,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/59045351000161/2026/93",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -581,7 +1277,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/45226214000119/2026/453",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -611,7 +1307,7 @@
       "data_fim_vigencia": "2026-11-03T08:00",
       "link": "https://pncp.gov.br/compras/46710422000151/2026/1369",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -641,7 +1337,7 @@
       "data_fim_vigencia": "2026-11-04T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/336",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -671,7 +1367,7 @@
       "data_fim_vigencia": "2026-10-29T08:30",
       "link": "https://pncp.gov.br/compras/46200846000176/2026/10183",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -701,7 +1397,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/7018",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -731,7 +1427,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/46523171000104/2026/351",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -761,7 +1457,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4508",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas"
       ]
@@ -791,7 +1487,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/67160481000173/2026/198",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -821,7 +1517,7 @@
       "data_fim_vigencia": "2026-10-23T08:00",
       "link": "https://pncp.gov.br/compras/47563739000175/2026/320",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -851,7 +1547,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4505",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -881,7 +1577,7 @@
       "data_fim_vigencia": "2026-11-04T10:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4108",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -911,7 +1607,7 @@
       "data_fim_vigencia": "2026-10-30T08:30",
       "link": "https://pncp.gov.br/compras/66991647000130/2026/291",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -941,7 +1637,7 @@
       "data_fim_vigencia": "2026-10-29T08:30",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4502",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -971,7 +1667,7 @@
       "data_fim_vigencia": "2026-10-27T11:30",
       "link": "https://pncp.gov.br/compras/46374500000194/2026/8686",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1001,7 +1697,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/7006",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1031,7 +1727,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2881",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1061,7 +1757,7 @@
       "data_fim_vigencia": "2026-10-22T08:59",
       "link": "https://pncp.gov.br/compras/43728245000142/2026/278",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -1091,7 +1787,7 @@
       "data_fim_vigencia": "2026-10-27T08:50",
       "link": "https://pncp.gov.br/compras/43206424000110/2026/162",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1121,7 +1817,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/45786159000111/2026/356",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas"
       ]
@@ -1151,7 +1847,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/45786159000111/2026/355",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas"
       ]
@@ -1181,7 +1877,7 @@
       "data_fim_vigencia": "2026-11-05T08:00",
       "link": "https://pncp.gov.br/compras/46362927000172/2026/868",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "calhas",
@@ -1214,7 +1910,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/46374500000194/2026/8671",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1244,7 +1940,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/04921738000142/2026/35",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1274,7 +1970,7 @@
       "data_fim_vigencia": "2026-10-30T09:00",
       "link": "https://pncp.gov.br/compras/48867477000103/2026/50",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1304,7 +2000,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4488",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -1334,7 +2030,7 @@
       "data_fim_vigencia": "2026-11-04T09:00",
       "link": "https://pncp.gov.br/compras/45332095000189/2026/179",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -1364,7 +2060,7 @@
       "data_fim_vigencia": "2026-10-26T10:05",
       "link": "https://pncp.gov.br/compras/46634564000187/2026/982",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1394,7 +2090,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/49225212000166/2026/52",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1424,7 +2120,7 @@
       "data_fim_vigencia": "2026-10-29T08:30",
       "link": "https://pncp.gov.br/compras/50333616000152/2026/70",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1454,7 +2150,7 @@
       "data_fim_vigencia": "2026-11-03T08:59",
       "link": "https://pncp.gov.br/compras/46634606000180/2026/384",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1484,7 +2180,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/56900848000121/2026/218",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1514,7 +2210,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/22248",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1544,7 +2240,7 @@
       "data_fim_vigencia": "2026-11-03T11:59",
       "link": "https://pncp.gov.br/compras/46611117000102/2026/43",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1574,7 +2270,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/56900848000121/2026/217",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1604,7 +2300,7 @@
       "data_fim_vigencia": "2026-11-04T09:00",
       "link": "https://pncp.gov.br/compras/44477909000100/2026/918",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1634,7 +2330,7 @@
       "data_fim_vigencia": "2026-10-27T08:45",
       "link": "https://pncp.gov.br/compras/45279643000154/2026/84",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -1664,7 +2360,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/45089885000185/2026/49",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1694,7 +2390,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/45751427000160/2026/73",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1724,7 +2420,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/55356653000108/2026/264",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -1754,7 +2450,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/46599833000111/2026/201",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1784,7 +2480,7 @@
       "data_fim_vigencia": "2026-11-03T08:59",
       "link": "https://pncp.gov.br/compras/46523130000100/2026/251",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -1814,7 +2510,7 @@
       "data_fim_vigencia": "2026-11-04T09:00",
       "link": "https://pncp.gov.br/compras/49576416000141/2026/309",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -1845,7 +2541,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/54689336000132/2026/95",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1875,7 +2571,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/51327708000192/2026/94",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1905,7 +2601,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/54689336000132/2026/94",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1935,7 +2631,7 @@
       "data_fim_vigencia": "2026-10-27T08:59",
       "link": "https://pncp.gov.br/compras/46482840000139/2026/816",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -1967,7 +2663,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/51327708000192/2026/93",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -1997,7 +2693,7 @@
       "data_fim_vigencia": "2026-11-24T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/333",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2027,7 +2723,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/59949362000176/2025/181",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2057,7 +2753,7 @@
       "data_fim_vigencia": "2026-10-27T10:00",
       "link": "https://pncp.gov.br/compras/10882594000165/2026/612",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -2088,7 +2784,7 @@
       "data_fim_vigencia": "2026-11-03T08:59",
       "link": "https://pncp.gov.br/compras/60453032000174/2026/273",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2118,7 +2814,7 @@
       "data_fim_vigencia": "2026-11-03T09:00",
       "link": "https://pncp.gov.br/compras/00444232000139/2026/1289",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2148,7 +2844,7 @@
       "data_fim_vigencia": "2026-11-04T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4474",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2178,7 +2874,7 @@
       "data_fim_vigencia": "2026-10-22T09:30",
       "link": "https://pncp.gov.br/compras/03774819000102/2026/234",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2208,7 +2904,7 @@
       "data_fim_vigencia": "2026-10-19T23:59",
       "link": "https://pncp.gov.br/compras/44951515000142/2026/153",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2238,7 +2934,7 @@
       "data_fim_vigencia": "2026-10-27T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6989",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2268,7 +2964,7 @@
       "data_fim_vigencia": "2026-10-29T23:59",
       "link": "https://pncp.gov.br/compras/44555027000116/2026/100",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2298,7 +2994,7 @@
       "data_fim_vigencia": "2026-11-05T08:00",
       "link": "https://pncp.gov.br/compras/45671120000159/2026/204",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2328,7 +3024,7 @@
       "data_fim_vigencia": "2026-11-03T23:59",
       "link": "https://pncp.gov.br/compras/45157104000142/2026/131",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2358,7 +3054,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/45671120000159/2026/203",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2388,7 +3084,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4468",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2418,7 +3114,7 @@
       "data_fim_vigencia": "2026-10-20T23:59",
       "link": "https://pncp.gov.br/compras/00060981000162/2026/53",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2448,7 +3144,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/45547395000185/2026/53",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2478,7 +3174,7 @@
       "data_fim_vigencia": "2026-10-29T08:00",
       "link": "https://pncp.gov.br/compras/44563583000134/2026/335",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2508,7 +3204,7 @@
       "data_fim_vigencia": "2026-11-03T09:00",
       "link": "https://pncp.gov.br/compras/46523056000121/2026/134",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2538,7 +3234,7 @@
       "data_fim_vigencia": "2026-10-28T09:29",
       "link": "https://pncp.gov.br/compras/45189305000121/2026/155",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2568,7 +3264,7 @@
       "data_fim_vigencia": "2026-10-29T07:30",
       "link": "https://pncp.gov.br/compras/45781176000166/2026/905",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2598,7 +3294,7 @@
       "data_fim_vigencia": "2026-10-28T09:00",
       "link": "https://pncp.gov.br/compras/46585956000101/2026/48",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2628,7 +3324,7 @@
       "data_fim_vigencia": "2026-10-27T13:10",
       "link": "https://pncp.gov.br/compras/46145306000137/2026/9",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2658,7 +3354,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6982",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2688,7 +3384,7 @@
       "data_fim_vigencia": "2026-10-28T09:50",
       "link": "https://pncp.gov.br/compras/46523072000114/2026/126",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2718,7 +3414,7 @@
       "data_fim_vigencia": "2026-11-03T08:30",
       "link": "https://pncp.gov.br/compras/46588950000180/2026/948",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2748,7 +3444,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/46523270000188/2026/488",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2778,7 +3474,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6977",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2808,7 +3504,7 @@
       "data_fim_vigencia": "2026-10-29T10:59",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4464",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2838,7 +3534,7 @@
       "data_fim_vigencia": "2026-10-26T08:30",
       "link": "https://pncp.gov.br/compras/46634051000176/2026/171",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -2868,7 +3564,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4463",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2898,7 +3594,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6972",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -2928,7 +3624,7 @@
       "data_fim_vigencia": "2026-10-30T08:59",
       "link": "https://pncp.gov.br/compras/43776491000170/2027/8",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -2958,7 +3654,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/45780087000103/2026/120",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -2989,7 +3685,7 @@
       "data_fim_vigencia": "2026-10-28T08:00",
       "link": "https://pncp.gov.br/compras/45780079000159/2026/287",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3019,7 +3715,7 @@
       "data_fim_vigencia": "2026-11-24T10:00",
       "link": "https://pncp.gov.br/compras/49425994000187/2026/81",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3049,7 +3745,7 @@
       "data_fim_vigencia": "2026-10-27T08:40",
       "link": "https://pncp.gov.br/compras/44919611000103/2026/77",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -3079,7 +3775,7 @@
       "data_fim_vigencia": "2026-11-03T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4456",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3109,7 +3805,7 @@
       "data_fim_vigencia": "2026-10-29T07:30",
       "link": "https://pncp.gov.br/compras/45781176000166/2026/903",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3139,7 +3835,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/46523130000100/2026/248",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3169,7 +3865,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/22159",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -3199,7 +3895,7 @@
       "data_fim_vigencia": "2026-10-20T08:29",
       "link": "https://pncp.gov.br/compras/44847663000111/2026/898",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3229,7 +3925,7 @@
       "data_fim_vigencia": "2026-11-03T09:00",
       "link": "https://pncp.gov.br/compras/51327708000192/2026/91",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3259,7 +3955,7 @@
       "data_fim_vigencia": "2026-10-29T08:30",
       "link": "https://pncp.gov.br/compras/45126851000113/2026/97",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3289,7 +3985,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6947",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -3320,7 +4016,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/46384111000140/2026/1174",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3350,7 +4046,7 @@
       "data_fim_vigencia": "2026-11-04T08:30:49",
       "link": "https://pncp.gov.br/compras/45767829000152/2026/114",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3380,7 +4076,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/51327708000192/2026/89",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3410,7 +4106,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/43759190000138/2026/2",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3440,7 +4136,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/46374500000194/2026/8618",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3470,7 +4166,7 @@
       "data_fim_vigencia": "2026-10-26T08:59",
       "link": "https://pncp.gov.br/compras/44392215000170/2026/119",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3500,7 +4196,7 @@
       "data_fim_vigencia": "2026-10-26T10:00",
       "link": "https://pncp.gov.br/compras/58200015000183/2026/531",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3530,7 +4226,7 @@
       "data_fim_vigencia": "2026-11-04T09:59",
       "link": "https://pncp.gov.br/compras/05539998000110/2026/22",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -3560,7 +4256,7 @@
       "data_fim_vigencia": "2026-11-05T09:00",
       "link": "https://pncp.gov.br/compras/45332095000189/2026/177",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3590,7 +4286,7 @@
       "data_fim_vigencia": "2026-11-04T08:00",
       "link": "https://pncp.gov.br/compras/60344157000166/2026/24",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -3620,7 +4316,7 @@
       "data_fim_vigencia": "2026-11-06T09:00",
       "link": "https://pncp.gov.br/compras/46444063000138/2026/297",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3650,7 +4346,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/44477909000100/2026/911",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -3681,7 +4377,7 @@
       "data_fim_vigencia": "2026-10-29T08:29",
       "link": "https://pncp.gov.br/compras/47842836000105/2026/185",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3711,7 +4407,7 @@
       "data_fim_vigencia": "2026-10-28T08:30",
       "link": "https://pncp.gov.br/compras/45126851000113/2026/96",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3741,7 +4437,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/46578514000120/2026/293",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3771,7 +4467,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/47498340000158/2026/3",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3801,7 +4497,7 @@
       "data_fim_vigencia": "2026-10-28T08:30",
       "link": "https://pncp.gov.br/compras/50387844000105/2026/633",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -3831,7 +4527,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/64037815000128/2026/331",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -3863,7 +4559,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/00394429000100/2026/2666",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3893,7 +4589,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/00444232000139/2026/1283",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -3923,7 +4619,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/64037815000128/2026/329",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado",
         "calhas"
@@ -3954,7 +4650,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/50985266000109/2026/144",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -3984,7 +4680,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/46384111000140/2026/1171",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4014,7 +4710,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/53300356000107/2026/185",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4044,7 +4740,7 @@
       "data_fim_vigencia": "2026-11-17T10:00",
       "link": "https://pncp.gov.br/compras/13864377000130/2026/1648",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4074,7 +4770,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/46680500000112/2026/365",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4104,7 +4800,7 @@
       "data_fim_vigencia": "2026-10-28T08:00",
       "link": "https://pncp.gov.br/compras/52359692000162/2026/163",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4134,7 +4830,7 @@
       "data_fim_vigencia": "2026-10-29T13:00",
       "link": "https://pncp.gov.br/compras/45196698000109/2026/31",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4164,7 +4860,7 @@
       "data_fim_vigencia": "2026-10-19T17:00",
       "link": "https://pncp.gov.br/compras/00685483000105/2026/21",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4194,7 +4890,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/44723674000190/2026/847",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4224,7 +4920,7 @@
       "data_fim_vigencia": "2026-10-29T08:00",
       "link": "https://pncp.gov.br/compras/45699626000176/2026/515",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:05+00:00",
+      "atualizado_em": "2026-10-17T13:21:56+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4254,7 +4950,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/46384111000140/2026/1167",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4284,7 +4980,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/13864377000130/2026/1644",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -4315,7 +5011,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/03676803000159/2026/70",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -4345,7 +5041,7 @@
       "data_fim_vigencia": "2026-10-29T08:30",
       "link": "https://pncp.gov.br/compras/49898489000150/2026/14",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4375,7 +5071,7 @@
       "data_fim_vigencia": "2026-10-29T08:00",
       "link": "https://pncp.gov.br/compras/45138070000149/2026/914",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -4405,7 +5101,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/56089790000188/2026/317",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4435,7 +5131,7 @@
       "data_fim_vigencia": "2026-10-27T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6919",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -4465,7 +5161,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4049",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4495,7 +5191,7 @@
       "data_fim_vigencia": "2026-10-19T11:00",
       "link": "https://pncp.gov.br/compras/57054793000149/2026/21",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -4526,7 +5222,7 @@
       "data_fim_vigencia": "2026-10-27T08:15",
       "link": "https://pncp.gov.br/compras/46634135000100/2026/56",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4556,7 +5252,7 @@
       "data_fim_vigencia": "2026-10-28T12:00",
       "link": "https://pncp.gov.br/compras/51042737000108/2026/55",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4586,7 +5282,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2836",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4616,7 +5312,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6918",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4646,7 +5342,7 @@
       "data_fim_vigencia": "2026-10-27T08:00",
       "link": "https://pncp.gov.br/compras/44919918000104/2026/213",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -4677,7 +5373,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/48996318000109/2026/42",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4707,7 +5403,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6915",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -4738,7 +5434,7 @@
       "data_fim_vigencia": "2026-10-27T09:59",
       "link": "https://pncp.gov.br/compras/05626770000168/2026/26",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -4768,7 +5464,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/05587823000189/2026/108",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4798,7 +5494,7 @@
       "data_fim_vigencia": "2026-10-30T17:00",
       "link": "https://pncp.gov.br/compras/00389576000192/2026/46",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4828,7 +5524,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/05587823000189/2026/107",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4858,7 +5554,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/05587823000189/2026/106",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -4888,7 +5584,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6914",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -4920,7 +5616,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/24082016000159/2026/639",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -4950,7 +5646,7 @@
       "data_fim_vigencia": "2026-10-27T10:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6909",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -4980,7 +5676,7 @@
       "data_fim_vigencia": "2026-10-29T09:30",
       "link": "https://pncp.gov.br/compras/45279635000108/2026/890",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5010,7 +5706,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/57500902000104/2026/91",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5040,7 +5736,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2827",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5070,7 +5766,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4034",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5100,7 +5796,7 @@
       "data_fim_vigencia": "2026-10-27T08:45",
       "link": "https://pncp.gov.br/compras/45279643000154/2026/83",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5130,7 +5826,7 @@
       "data_fim_vigencia": "2026-10-28T08:30",
       "link": "https://pncp.gov.br/compras/65708786000141/2026/91",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5160,7 +5856,7 @@
       "data_fim_vigencia": "2026-10-27T08:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4033",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5190,39 +5886,9 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/46231890000143/2026/621",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
-      ]
-    },
-    {
-      "id": "15563047000130-1-000011_2026",
-      "numero_controle_pncp": "15563047000130-1-000011/2026",
-      "categoria": "ar_condicionado",
-      "categoria_label": "Ar condicionado",
-      "prioridade": true,
-      "confianca": "alta",
-      "titulo": "Aviso de Contratação Direta nº 241/2026",
-      "descricao": "[LICITANET] - Aquisição de 2 (dois) aparelhos de ar-condicionado tipo Split Hi Wall, tecnologia Inverter, ciclo frio, capacidade de refrigeração mínima de 22.000 BTU/h e tensão 220 V, destinados à Sala de Treinamento do 6º andar da Fundação Parque Tecnológico de Santos – FPTS,  conforme especificações, exigências e quantidades constantes do Anexo I – Termo de Referência do Edital.",
-      "orgao": "FUNDACAO PARQUE TECNOLOGICO DE SANTOS",
-      "org_tipo": "parque",
-      "orgao_destaque": "Parque Tecnológico",
-      "esfera": "Municipal",
-      "poder": "Executivo",
-      "municipio": "Santos",
-      "uf": "SP",
-      "regiao": "outras_sp",
-      "modalidade": "Dispensa",
-      "tipo_documento": "Aviso de Contratação Direta",
-      "situacao": "Divulgada no PNCP",
-      "valor_global": null,
-      "data_publicacao": "2026-10-13T08:24:21.952021178",
-      "data_fim_vigencia": "2026-10-16T14:30",
-      "link": "https://pncp.gov.br/compras/15563047000130/2026/11",
-      "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
-      "categorias": [
-        "ar_condicionado"
       ]
     },
     {
@@ -5250,7 +5916,7 @@
       "data_fim_vigencia": "2026-11-06T10:00",
       "link": "https://pncp.gov.br/compras/46523270000188/2026/481",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -5281,7 +5947,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/49269244000163/2026/1158",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -5312,7 +5978,7 @@
       "data_fim_vigencia": "2026-10-29T08:00",
       "link": "https://pncp.gov.br/compras/13864377000130/2026/1631",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5342,7 +6008,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4417",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5372,7 +6038,7 @@
       "data_fim_vigencia": "2026-10-22T09:30",
       "link": "https://pncp.gov.br/compras/45176153000122/2026/192",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5402,7 +6068,7 @@
       "data_fim_vigencia": "2026-11-03T09:30",
       "link": "https://pncp.gov.br/compras/45176153000122/2026/190",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5432,7 +6098,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/46523171000104/2026/348",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -5462,7 +6128,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4023",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -5492,7 +6158,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6885",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5522,7 +6188,7 @@
       "data_fim_vigencia": "2026-10-27T11:00",
       "link": "https://pncp.gov.br/compras/04537740000112/2026/7",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5552,7 +6218,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6884",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -5583,7 +6249,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/45318185000115/2026/57",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -5613,7 +6279,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/47563739000175/2026/314",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5643,7 +6309,7 @@
       "data_fim_vigencia": "2026-11-03T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6879",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5673,7 +6339,7 @@
       "data_fim_vigencia": "2026-10-27T08:30",
       "link": "https://pncp.gov.br/compras/44441475000199/2026/58",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5703,7 +6369,7 @@
       "data_fim_vigencia": "2026-10-23T08:00",
       "link": "https://pncp.gov.br/compras/59764399000120/2026/22",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5733,7 +6399,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/46522959000198/2026/118",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5763,7 +6429,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/67366310000103/2026/123",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5793,7 +6459,7 @@
       "data_fim_vigencia": "2026-10-28T09:29",
       "link": "https://pncp.gov.br/compras/46694147000120/2026/85",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -5823,7 +6489,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2804",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5853,7 +6519,7 @@
       "data_fim_vigencia": "2026-10-23T08:30",
       "link": "https://pncp.gov.br/compras/45751435000106/2026/381",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -5883,7 +6549,7 @@
       "data_fim_vigencia": "2026-11-10T10:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4400",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5913,7 +6579,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4010",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -5943,7 +6609,7 @@
       "data_fim_vigencia": "2026-10-22T14:01",
       "link": "https://pncp.gov.br/compras/46634382000106/2026/318",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -5973,7 +6639,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/55354302000150/2026/174",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -6004,7 +6670,7 @@
       "data_fim_vigencia": "2026-10-22T14:00",
       "link": "https://pncp.gov.br/compras/46634382000106/2026/316",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -6034,7 +6700,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/57712473000139/2026/15",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -6066,7 +6732,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/4008",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6096,7 +6762,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/55354302000150/2026/171",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -6127,7 +6793,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2799",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6157,7 +6823,7 @@
       "data_fim_vigencia": "2026-10-22T17:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2027/1110",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -6187,7 +6853,7 @@
       "data_fim_vigencia": "2026-10-22T13:00",
       "link": "https://pncp.gov.br/compras/06302492000156/2026/34",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -6217,7 +6883,7 @@
       "data_fim_vigencia": "2026-10-22T10:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/21890",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6247,7 +6913,7 @@
       "data_fim_vigencia": "2026-10-26T14:30",
       "link": "https://pncp.gov.br/compras/00509968000148/2026/3457",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -6277,7 +6943,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/00394429000100/2026/2633",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6307,7 +6973,7 @@
       "data_fim_vigencia": "2026-10-22T10:00",
       "link": "https://pncp.gov.br/compras/60453032000174/2026/266",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -6338,7 +7004,7 @@
       "data_fim_vigencia": "2026-10-27T10:00",
       "link": "https://pncp.gov.br/compras/46374500000194/2026/8508",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6368,7 +7034,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2798",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -6398,7 +7064,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/53300356000107/2026/184",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6428,7 +7094,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/48664304000180/2026/247",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -6460,7 +7126,7 @@
       "data_fim_vigencia": "2026-12-09T08:59",
       "link": "https://pncp.gov.br/compras/64037963000142/2025/57",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -6491,7 +7157,7 @@
       "data_fim_vigencia": "2026-10-22T10:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4393",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -6521,7 +7187,7 @@
       "data_fim_vigencia": "2026-10-23T08:30",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4391",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6551,7 +7217,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/46523056000121/2026/132",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6581,7 +7247,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/46710422000151/2026/1350",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6611,7 +7277,7 @@
       "data_fim_vigencia": "2026-10-27T08:30",
       "link": "https://pncp.gov.br/compras/55293427000117/2026/233",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6641,7 +7307,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2792",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6671,7 +7337,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/46068425000133/2026/2078",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6701,7 +7367,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6851",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6731,7 +7397,7 @@
       "data_fim_vigencia": "2026-10-23T08:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6848",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6761,7 +7427,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/44873396000157/2026/18",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6791,7 +7457,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/60123072000158/2026/95",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -6821,7 +7487,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6844",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -6852,7 +7518,7 @@
       "data_fim_vigencia": "2026-10-21T10:00",
       "link": "https://pncp.gov.br/compras/46523080000160/2026/167",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:05+00:00",
+      "atualizado_em": "2026-10-17T13:21:56+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6882,7 +7548,7 @@
       "data_fim_vigencia": "2026-10-23T08:50",
       "link": "https://pncp.gov.br/compras/46363933000144/2026/324",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -6912,7 +7578,7 @@
       "data_fim_vigencia": "2026-10-26T14:29",
       "link": "https://pncp.gov.br/compras/46634291000170/2026/1135",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6942,7 +7608,7 @@
       "data_fim_vigencia": "2026-10-26T12:59",
       "link": "https://pncp.gov.br/compras/43307008000108/2026/37",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -6972,7 +7638,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/46523270000188/2026/479",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7002,7 +7668,7 @@
       "data_fim_vigencia": "2027-10-08T09:00",
       "link": "https://pncp.gov.br/compras/46596151000155/2026/1468",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7032,7 +7698,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/46523262000131/2026/248",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7062,7 +7728,7 @@
       "data_fim_vigencia": "2026-10-23T14:29",
       "link": "https://pncp.gov.br/compras/46634291000170/2026/1131",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -7092,7 +7758,7 @@
       "data_fim_vigencia": "2026-12-29T23:59:59",
       "link": "https://pncp.gov.br/compras/46476131000140/2026/443",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -7122,7 +7788,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/46429379000150/2026/213",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -7152,7 +7818,7 @@
       "data_fim_vigencia": "2026-11-09T08:00",
       "link": "https://pncp.gov.br/compras/49227788000162/2026/42",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -7182,7 +7848,7 @@
       "data_fim_vigencia": "2026-10-30T09:00",
       "link": "https://pncp.gov.br/compras/46179941000135/2026/462",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7212,7 +7878,7 @@
       "data_fim_vigencia": "2026-10-27T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4376",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7242,7 +7908,7 @@
       "data_fim_vigencia": "2026-11-05T08:50",
       "link": "https://pncp.gov.br/compras/50122571000177/2026/345",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7272,7 +7938,7 @@
       "data_fim_vigencia": "2026-10-29T09:00",
       "link": "https://pncp.gov.br/compras/44780609000104/2026/365",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7302,7 +7968,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3971",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7332,7 +7998,7 @@
       "data_fim_vigencia": "2026-10-26T08:59",
       "link": "https://pncp.gov.br/compras/58200015000183/2026/512",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7362,7 +8028,7 @@
       "data_fim_vigencia": "2026-10-21T17:00",
       "link": "https://pncp.gov.br/compras/45774064000188/2026/291",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7392,7 +8058,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/46425229000179/2026/138",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7422,7 +8088,7 @@
       "data_fim_vigencia": "2026-10-22T13:30",
       "link": "https://pncp.gov.br/compras/50062751000100/2026/345",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7452,7 +8118,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/46151718000180/2026/669",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -7483,7 +8149,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/21791",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -7514,7 +8180,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/46119855000137/2026/90",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7544,7 +8210,7 @@
       "data_fim_vigencia": "2026-10-26T23:59",
       "link": "https://pncp.gov.br/compras/44498467000189/2026/885",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7574,7 +8240,7 @@
       "data_fim_vigencia": "2026-10-26T10:29",
       "link": "https://pncp.gov.br/compras/46392114000125/2026/961",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -7604,7 +8270,7 @@
       "data_fim_vigencia": "2026-10-29T08:55",
       "link": "https://pncp.gov.br/compras/44518397000183/2026/53",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7634,7 +8300,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2773",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7664,7 +8330,7 @@
       "data_fim_vigencia": "2026-10-27T08:30",
       "link": "https://pncp.gov.br/compras/46717104000112/2026/49",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7694,7 +8360,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/54393491000107/2026/108",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7724,7 +8390,7 @@
       "data_fim_vigencia": "2026-10-26T07:30",
       "link": "https://pncp.gov.br/compras/48664304000180/2026/243",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -7754,7 +8420,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/46446696000185/2026/333",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7784,7 +8450,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/48031918000124/2026/2769",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas"
       ]
@@ -7814,7 +8480,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6801",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7844,7 +8510,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6786",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -7875,7 +8541,7 @@
       "data_fim_vigencia": "2026-10-20T08:59",
       "link": "https://pncp.gov.br/compras/46523015000135/2026/414",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "calhas",
         "cftv",
@@ -7907,7 +8573,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4355",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -7937,7 +8603,7 @@
       "data_fim_vigencia": "2026-10-26T08:44",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4354",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -7967,7 +8633,7 @@
       "data_fim_vigencia": "2026-10-26T10:00",
       "link": "https://pncp.gov.br/compras/05245375000135/2026/34",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:05+00:00",
+      "atualizado_em": "2026-10-17T13:21:56+00:00",
       "categorias": [
         "cftv"
       ]
@@ -7997,7 +8663,7 @@
       "data_fim_vigencia": "2026-10-27T08:59",
       "link": "https://pncp.gov.br/compras/45321460000150/2026/241",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8027,7 +8693,7 @@
       "data_fim_vigencia": "2026-10-27T10:14",
       "link": "https://pncp.gov.br/compras/58151580000106/2026/51",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8057,7 +8723,7 @@
       "data_fim_vigencia": "2026-10-22T10:10",
       "link": "https://pncp.gov.br/compras/46523148000101/2026/68",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8087,7 +8753,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/46638714000120/2026/380",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8117,7 +8783,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/46439683000189/2026/120",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8147,7 +8813,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/46634044000174/2026/248",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8177,7 +8843,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/00394429000100/2026/2603",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -8208,7 +8874,7 @@
       "data_fim_vigencia": "2026-10-22T10:00",
       "link": "https://pncp.gov.br/compras/44892693000140/2026/245",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8238,7 +8904,7 @@
       "data_fim_vigencia": "2026-10-22T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/325",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8268,7 +8934,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/44438968000170/2026/57",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8298,7 +8964,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/46319000000150/2026/372",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8328,7 +8994,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6741",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -8359,7 +9025,7 @@
       "data_fim_vigencia": "2026-10-23T09:00",
       "link": "https://pncp.gov.br/compras/46638714000120/2026/378",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8389,7 +9055,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4334",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8419,7 +9085,7 @@
       "data_fim_vigencia": "2026-11-04T10:00",
       "link": "https://pncp.gov.br/compras/45339363000194/2026/312",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8449,7 +9115,7 @@
       "data_fim_vigencia": "2026-10-23T10:00",
       "link": "https://pncp.gov.br/compras/46523171000104/2026/339",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -8480,7 +9146,7 @@
       "data_fim_vigencia": "2026-10-21T08:29",
       "link": "https://pncp.gov.br/compras/51455087000122/2026/130",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8510,7 +9176,7 @@
       "data_fim_vigencia": "2026-10-29T23:59",
       "link": "https://pncp.gov.br/compras/44446904000110/2026/79",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8540,7 +9206,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/44405967000129/2026/81",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8570,7 +9236,7 @@
       "data_fim_vigencia": "2026-10-19T17:00",
       "link": "https://pncp.gov.br/compras/45321791000190/2026/58",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -8600,7 +9266,7 @@
       "data_fim_vigencia": "2026-10-21T08:29",
       "link": "https://pncp.gov.br/compras/51814960000126/2026/129",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8630,7 +9296,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/45787678000102/2026/349",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8660,7 +9326,7 @@
       "data_fim_vigencia": "2026-11-12T08:00",
       "link": "https://pncp.gov.br/compras/45331188000199/2026/309",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8690,7 +9356,7 @@
       "data_fim_vigencia": "2026-10-21T08:59",
       "link": "https://pncp.gov.br/compras/45741659000137/2026/159",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8720,7 +9386,7 @@
       "data_fim_vigencia": "2026-10-26T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/324",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8750,7 +9416,7 @@
       "data_fim_vigencia": "2026-10-21T23:59",
       "link": "https://pncp.gov.br/compras/46523049000120/2026/176",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8780,7 +9446,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4324",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8810,7 +9476,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4318",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8840,7 +9506,7 @@
       "data_fim_vigencia": "2026-10-20T08:30",
       "link": "https://pncp.gov.br/compras/54279674000104/2026/16",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -8871,7 +9537,7 @@
       "data_fim_vigencia": "2026-10-21T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/323",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8901,7 +9567,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4314",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8931,7 +9597,7 @@
       "data_fim_vigencia": "2026-10-22T09:29",
       "link": "https://pncp.gov.br/compras/59307595000175/2026/191",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -8961,7 +9627,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/45318466000178/2026/264",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -8991,7 +9657,7 @@
       "data_fim_vigencia": "2026-11-18T09:00",
       "link": "https://pncp.gov.br/compras/60509015000101/2026/181",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9021,7 +9687,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/46638714000120/2026/373",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -9053,7 +9719,7 @@
       "data_fim_vigencia": "2026-10-21T12:59",
       "link": "https://pncp.gov.br/compras/46634606000180/2026/351",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9083,7 +9749,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/46374500000194/2026/8338",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9113,7 +9779,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/45731650000145/2026/163",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:05+00:00",
+      "atualizado_em": "2026-10-17T13:21:56+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9143,7 +9809,7 @@
       "data_fim_vigencia": "2026-10-19T08:59:59",
       "link": "https://pncp.gov.br/compras/45370707000128/2026/132",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9173,7 +9839,7 @@
       "data_fim_vigencia": "2026-10-20T08:30",
       "link": "https://pncp.gov.br/compras/45318995000171/2026/209",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9203,7 +9869,7 @@
       "data_fim_vigencia": "2026-10-22T09:00",
       "link": "https://pncp.gov.br/compras/56089790000188/2026/311",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9233,7 +9899,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/21600",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9263,7 +9929,7 @@
       "data_fim_vigencia": "2026-10-26T08:00",
       "link": "https://pncp.gov.br/compras/10882594000165/2026/599",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9293,7 +9959,7 @@
       "data_fim_vigencia": "2026-10-22T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/321",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9323,7 +9989,7 @@
       "data_fim_vigencia": "2026-10-22T10:00",
       "link": "https://pncp.gov.br/compras/05659015000180/2026/46",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9353,7 +10019,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/45671120000159/2026/200",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9383,7 +10049,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/45164654000199/2026/66",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9413,7 +10079,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/46384111000140/2026/1130",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9443,7 +10109,7 @@
       "data_fim_vigencia": "2026-10-20T10:00",
       "link": "https://pncp.gov.br/compras/46523270000188/2026/471",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9473,7 +10139,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/47842836000105/2026/179",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9503,7 +10169,7 @@
       "data_fim_vigencia": "2026-11-19T09:00",
       "link": "https://pncp.gov.br/compras/45332095000189/2026/169",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "calhas",
         "cftv",
@@ -9535,7 +10201,7 @@
       "data_fim_vigencia": "2026-10-27T10:00",
       "link": "https://pncp.gov.br/compras/72130818000130/2026/119",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9565,7 +10231,7 @@
       "data_fim_vigencia": "2026-10-27T08:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3932",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9595,7 +10261,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/59851543000165/2026/122",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9625,7 +10291,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/46392114000125/2026/950",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9655,7 +10321,7 @@
       "data_fim_vigencia": "2026-10-23T09:59",
       "link": "https://pncp.gov.br/compras/68020916000147/2026/213",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9685,7 +10351,7 @@
       "data_fim_vigencia": "2026-10-21T08:59",
       "link": "https://pncp.gov.br/compras/46634432000155/2026/358",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9715,7 +10381,7 @@
       "data_fim_vigencia": "2026-11-17T09:00",
       "link": "https://pncp.gov.br/compras/45332095000189/2026/168",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9745,7 +10411,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/43672880000155/2026/107",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -9776,7 +10442,7 @@
       "data_fim_vigencia": "2026-10-20T09:59:59",
       "link": "https://pncp.gov.br/compras/68020916000147/2026/211",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9806,7 +10472,7 @@
       "data_fim_vigencia": "2026-10-26T17:00",
       "link": "https://pncp.gov.br/compras/56889587000196/2026/9",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9836,7 +10502,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/12998458000160/2026/1297",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9866,7 +10532,7 @@
       "data_fim_vigencia": "2026-10-23T10:00",
       "link": "https://pncp.gov.br/compras/51864114000110/2026/126",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9896,7 +10562,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6616",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -9926,7 +10592,7 @@
       "data_fim_vigencia": "2027-09-01T16:00",
       "link": "https://pncp.gov.br/compras/44723740000121/2026/90",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -9956,7 +10622,7 @@
       "data_fim_vigencia": "2026-10-20T11:00",
       "link": "https://pncp.gov.br/compras/51174001000193/2026/320",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -9986,7 +10652,7 @@
       "data_fim_vigencia": "2026-10-21T10:00",
       "link": "https://pncp.gov.br/compras/58200015000183/2026/502",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10016,7 +10682,7 @@
       "data_fim_vigencia": "2026-10-19T10:00",
       "link": "https://pncp.gov.br/compras/46392114000125/2026/949",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -10048,7 +10714,7 @@
       "data_fim_vigencia": "2026-10-21T08:30",
       "link": "https://pncp.gov.br/compras/49203409000102/2026/37",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10078,7 +10744,7 @@
       "data_fim_vigencia": "2026-10-27T18:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4293",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10108,7 +10774,7 @@
       "data_fim_vigencia": "2026-10-20T14:29",
       "link": "https://pncp.gov.br/compras/46634291000170/2026/1096",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10138,7 +10804,7 @@
       "data_fim_vigencia": "2026-10-20T14:29",
       "link": "https://pncp.gov.br/compras/46634291000170/2026/1095",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10168,7 +10834,7 @@
       "data_fim_vigencia": "2026-10-20T08:30",
       "link": "https://pncp.gov.br/compras/44733608000109/2026/872",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10198,7 +10864,7 @@
       "data_fim_vigencia": "2026-10-19T08:30",
       "link": "https://pncp.gov.br/compras/45774064000188/2026/285",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10228,7 +10894,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/46634515000144/2026/81",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10258,7 +10924,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/46319000000150/2026/364",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10288,7 +10954,7 @@
       "data_fim_vigencia": "2026-10-20T08:30",
       "link": "https://pncp.gov.br/compras/46585964000140/2026/204",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10318,7 +10984,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/318",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10348,7 +11014,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/46634515000144/2026/80",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10378,7 +11044,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/317",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10408,7 +11074,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/45550167000164/2026/712",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10438,7 +11104,7 @@
       "data_fim_vigencia": "2026-10-21T09:00",
       "link": "https://pncp.gov.br/compras/45167111000125/2026/46",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10468,7 +11134,7 @@
       "data_fim_vigencia": "2026-10-19T08:59",
       "link": "https://pncp.gov.br/compras/46634432000155/2026/354",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10498,7 +11164,7 @@
       "data_fim_vigencia": "2026-10-20T08:50",
       "link": "https://pncp.gov.br/compras/46578506000183/2026/76",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10528,7 +11194,7 @@
       "data_fim_vigencia": "2026-10-20T08:59:59",
       "link": "https://pncp.gov.br/compras/46680500000112/2026/348",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10558,7 +11224,7 @@
       "data_fim_vigencia": "2026-10-20T08:29",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4271",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10588,7 +11254,7 @@
       "data_fim_vigencia": "2026-10-21T08:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3912",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10618,7 +11284,7 @@
       "data_fim_vigencia": "2026-10-22T08:00",
       "link": "https://pncp.gov.br/compras/46634168000150/2026/249",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10648,7 +11314,7 @@
       "data_fim_vigencia": "2026-10-21T08:59",
       "link": "https://pncp.gov.br/compras/44880060000111/2026/207",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10678,7 +11344,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/46374500000194/2026/8224",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10708,7 +11374,7 @@
       "data_fim_vigencia": "2026-10-22T09:01",
       "link": "https://pncp.gov.br/compras/44430221000175/2026/17",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10738,7 +11404,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/46634077000114/2026/121",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -10768,7 +11434,7 @@
       "data_fim_vigencia": "2026-10-27T08:59",
       "link": "https://pncp.gov.br/compras/45786159000111/2026/339",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "calhas",
         "pintura"
@@ -10799,7 +11465,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/46599809000182/2026/354",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -10830,7 +11496,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/45786159000111/2026/338",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "calhas",
         "pintura"
@@ -10861,7 +11527,7 @@
       "data_fim_vigencia": "2026-10-20T14:00",
       "link": "https://pncp.gov.br/compras/10882594000165/2026/588",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10891,7 +11557,7 @@
       "data_fim_vigencia": "2026-10-20T07:59",
       "link": "https://pncp.gov.br/compras/45226214000119/2026/432",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -10922,7 +11588,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/46754388000117/2026/21",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -10952,7 +11618,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/46599809000182/2026/353",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -10982,7 +11648,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/52359692000162/2026/153",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -11013,7 +11679,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/65700239000110/2026/22",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11043,7 +11709,7 @@
       "data_fim_vigencia": "2026-10-23T13:00",
       "link": "https://pncp.gov.br/compras/45138336000153/2026/5",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -11074,7 +11740,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/311",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11104,7 +11770,7 @@
       "data_fim_vigencia": "2026-10-19T08:59",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/310",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -11135,7 +11801,7 @@
       "data_fim_vigencia": "2026-10-19T09:20",
       "link": "https://pncp.gov.br/compras/46522942000130/2026/293",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11165,7 +11831,7 @@
       "data_fim_vigencia": "2026-11-12T09:00",
       "link": "https://pncp.gov.br/compras/45332095000189/2026/166",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas"
       ]
@@ -11195,7 +11861,7 @@
       "data_fim_vigencia": "2026-11-13T10:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4247",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -11225,7 +11891,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/308",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11255,7 +11921,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/00457468000100/2026/3",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11285,7 +11951,7 @@
       "data_fim_vigencia": "2026-10-19T08:59",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/307",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -11316,7 +11982,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/46313714000150/2026/118",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11340,13 +12006,13 @@
       "regiao": "outras_sp",
       "modalidade": "Pregão - Eletrônico",
       "tipo_documento": "Edital",
-      "situacao": "Divulgada no PNCP",
+      "situacao": "Suspensa",
       "valor_global": null,
-      "data_publicacao": "2026-10-01T13:03:00.758392501",
+      "data_publicacao": "2026-10-01T13:03:00.758393",
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/45787660000100/2026/306",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11376,37 +12042,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/62823257000109/2026/76",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
-      "categorias": [
-        "cftv"
-      ]
-    },
-    {
-      "id": "50320332000121-1-000076_2026",
-      "numero_controle_pncp": "50320332000121-1-000076/2026",
-      "categoria": "cftv",
-      "categoria_label": "Câmeras / CFTV",
-      "prioridade": false,
-      "confianca": "baixa",
-      "titulo": "Edital de Chamamento Público nº 20 | Processo 1496/2026",
-      "descricao": "PROCEDIMENTO INICIAL DE PROSPECCAO DO MERCADO IMOBILIARIO LOCAL  COM O OBJETIVO DE VIABILIZAR A PROSPECCAO E A EVENTUAL FUTURA LOCACAO DE IMOVEL URBANO PARA A INSTALACAO E O PLENO FUNCIONAMENTO DAS ATIVIDADES DE APOIO PARLAMENTAR DA CAMARA MUNICIPAL DE SAO SEBASTIAO SP.A PRESENTE MEDIDA VISA ATENDER A NECESSIDADE DE EXPANSAO  ADEQUACAO E MELHORIA NO ATENDIMENTO DOS MUNICIPES.",
-      "orgao": "CAMARA MUNICIPAL DE SAO SEBASTIAO",
-      "org_tipo": "prefeitura",
-      "orgao_destaque": "Câmara Municipal",
-      "esfera": "Municipal",
-      "poder": "Legislativo",
-      "municipio": "São Sebastião",
-      "uf": "SP",
-      "regiao": "vale_do_paraiba",
-      "modalidade": "Credenciamento",
-      "tipo_documento": "Edital de Chamamento Público",
-      "situacao": "Divulgada no PNCP",
-      "valor_global": null,
-      "data_publicacao": "2026-10-01T12:10:45.563508278",
-      "data_fim_vigencia": "2026-10-16T17:00",
-      "link": "https://pncp.gov.br/compras/50320332000121/2026/76",
-      "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11436,7 +12072,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/46634481000198/2026/222",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11466,7 +12102,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/54393491000107/2026/103",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11496,7 +12132,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4233",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11526,7 +12162,7 @@
       "data_fim_vigencia": "2026-10-26T09:00",
       "link": "https://pncp.gov.br/compras/51816247000111/2026/700",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11556,7 +12192,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/49576416000141/2026/302",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11586,7 +12222,7 @@
       "data_fim_vigencia": "2026-10-19T10:00",
       "link": "https://pncp.gov.br/compras/04892707001778/2026/17",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11616,7 +12252,7 @@
       "data_fim_vigencia": "2026-11-04T09:59",
       "link": "https://pncp.gov.br/compras/05539998000110/2026/17",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11646,7 +12282,7 @@
       "data_fim_vigencia": "2026-11-12T09:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3888",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11676,7 +12312,7 @@
       "data_fim_vigencia": "2026-10-19T08:29",
       "link": "https://pncp.gov.br/compras/46195079000154/2026/926",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11706,7 +12342,7 @@
       "data_fim_vigencia": "2026-10-20T08:29",
       "link": "https://pncp.gov.br/compras/46187506000152/2026/48",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11736,7 +12372,7 @@
       "data_fim_vigencia": "2026-10-29T09:29",
       "link": "https://pncp.gov.br/compras/46694147000120/2026/81",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11766,7 +12402,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/43776491000170/2026/323",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11796,7 +12432,7 @@
       "data_fim_vigencia": "2026-11-24T09:00",
       "link": "https://pncp.gov.br/compras/46068425000133/2026/2024",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11826,7 +12462,7 @@
       "data_fim_vigencia": "2026-10-27T08:59",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4202",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11856,7 +12492,7 @@
       "data_fim_vigencia": "2026-10-19T13:00",
       "link": "https://pncp.gov.br/compras/45709920000111/2026/2888",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -11886,7 +12522,7 @@
       "data_fim_vigencia": "2026-11-24T08:59",
       "link": "https://pncp.gov.br/compras/46523015000135/2026/410",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "calhas",
@@ -11918,7 +12554,7 @@
       "data_fim_vigencia": "2026-10-19T08:59",
       "link": "https://pncp.gov.br/compras/96291141000180/2026/6432",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -11948,7 +12584,7 @@
       "data_fim_vigencia": "2026-10-27T08:50",
       "link": "https://pncp.gov.br/compras/50122571000177/2026/326",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:05+00:00",
+      "atualizado_em": "2026-10-17T13:21:56+00:00",
       "categorias": [
         "cftv"
       ]
@@ -11978,7 +12614,7 @@
       "data_fim_vigencia": "2026-11-19T08:59",
       "link": "https://pncp.gov.br/compras/46523015000135/2026/409",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas",
         "cftv"
@@ -12009,7 +12645,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3846",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12039,7 +12675,7 @@
       "data_fim_vigencia": "2026-10-26T10:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3839",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12069,7 +12705,7 @@
       "data_fim_vigencia": "2026-10-20T08:00",
       "link": "https://pncp.gov.br/compras/63025530000104/2026/3835",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -12099,7 +12735,7 @@
       "data_fim_vigencia": "2026-10-19T09:30",
       "link": "https://pncp.gov.br/compras/47970769000104/2026/471",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12129,7 +12765,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4187",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -12160,7 +12796,7 @@
       "data_fim_vigencia": "2026-10-27T08:59",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4185",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12190,7 +12826,7 @@
       "data_fim_vigencia": "2026-10-19T09:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/4179",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12220,7 +12856,7 @@
       "data_fim_vigencia": "2026-10-21T08:59",
       "link": "https://pncp.gov.br/compras/01626427000162/2026/10",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12250,7 +12886,7 @@
       "data_fim_vigencia": "2026-11-09T09:00",
       "link": "https://pncp.gov.br/compras/46179941000135/2026/442",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12280,7 +12916,7 @@
       "data_fim_vigencia": "2026-11-03T09:28",
       "link": "https://pncp.gov.br/compras/50528983000101/2026/9",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12310,7 +12946,7 @@
       "data_fim_vigencia": "2026-10-22T09:15",
       "link": "https://pncp.gov.br/compras/44563575000198/2026/74",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -12341,7 +12977,7 @@
       "data_fim_vigencia": "2026-10-30T08:59",
       "link": "https://pncp.gov.br/compras/59043513000122/2026/32",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12371,7 +13007,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/44477909000100/2026/872",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:28+00:00",
+      "atualizado_em": "2026-10-17T13:21:22+00:00",
       "categorias": [
         "calhas"
       ]
@@ -12401,7 +13037,7 @@
       "data_fim_vigencia": "2026-10-19T08:50",
       "link": "https://pncp.gov.br/compras/50122571000177/2026/316",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12431,41 +13067,11 @@
       "data_fim_vigencia": "2026-11-06T08:00",
       "link": "https://pncp.gov.br/compras/49886096000126/2026/1",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "calhas",
         "cftv",
         "pintura"
-      ]
-    },
-    {
-      "id": "02186336000116-1-000053_2026",
-      "numero_controle_pncp": "02186336000116-1-000053/2026",
-      "categoria": "ar_condicionado",
-      "categoria_label": "Ar condicionado",
-      "prioridade": false,
-      "confianca": "baixa",
-      "titulo": "Edital nº 000000000011/2026",
-      "descricao": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO PARCELADO DE MATERIAIS DE HIGIENE, LIMPEZA E PRODUTOS DESCARTÁVEIS, DESTINADOS A ATENDER ÀS NECESSIDADES DOS DIVERSOS ÓRGÃOS E SECRETARIAS DA PREFEITURA MUNIC",
-      "orgao": "MUNICIPIO DE APORE",
-      "org_tipo": "prefeitura",
-      "orgao_destaque": "Prefeitura",
-      "esfera": "Municipal",
-      "poder": "Não se aplica",
-      "municipio": "Palestina",
-      "uf": "SP",
-      "regiao": "outras_sp",
-      "modalidade": "Pregão - Eletrônico",
-      "tipo_documento": "Edital",
-      "situacao": "Divulgada no PNCP",
-      "valor_global": null,
-      "data_publicacao": "2026-09-23T15:38:15.938036",
-      "data_fim_vigencia": "2026-10-16T17:00",
-      "link": "https://pncp.gov.br/compras/02186336000116/2026/53",
-      "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
-      "categorias": [
-        "ar_condicionado"
       ]
     },
     {
@@ -12493,7 +13099,7 @@
       "data_fim_vigencia": "2026-11-03T09:00",
       "link": "https://pncp.gov.br/compras/56024581000156/2026/409",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12523,7 +13129,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/02343386000160/2026/2",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -12553,7 +13159,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/46177523000109/2026/265",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12583,7 +13189,7 @@
       "data_fim_vigencia": "2026-11-05T09:00",
       "link": "https://pncp.gov.br/compras/45332095000189/2026/161",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12613,7 +13219,7 @@
       "data_fim_vigencia": "2026-12-21T08:59",
       "link": "https://pncp.gov.br/compras/46523015000135/2026/399",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -12644,7 +13250,7 @@
       "data_fim_vigencia": "2026-10-22T08:30",
       "link": "https://pncp.gov.br/compras/46596151000155/2026/1426",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12674,7 +13280,7 @@
       "data_fim_vigencia": "2026-10-19T08:00",
       "link": "https://pncp.gov.br/compras/00394429000100/2026/2372",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "calhas",
@@ -12707,7 +13313,7 @@
       "data_fim_vigencia": "2026-10-30T18:00",
       "link": "https://pncp.gov.br/compras/46377800000127/2026/3938",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12737,7 +13343,7 @@
       "data_fim_vigencia": "2026-10-29T08:00",
       "link": "https://pncp.gov.br/compras/68326016000122/2026/24",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12767,7 +13373,7 @@
       "data_fim_vigencia": "2026-10-23T08:00",
       "link": "https://pncp.gov.br/compras/46151718000180/2026/603",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12797,7 +13403,7 @@
       "data_fim_vigencia": "2026-10-29T10:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/19941",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:44+00:00",
+      "atualizado_em": "2026-10-17T13:21:45+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12827,7 +13433,7 @@
       "data_fim_vigencia": "2027-09-14T17:00",
       "link": "https://pncp.gov.br/compras/07309266000160/2026/36",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -12857,7 +13463,7 @@
       "data_fim_vigencia": "2026-11-05T12:59",
       "link": "https://pncp.gov.br/compras/06289000000130/2026/64",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:03+00:00",
+      "atualizado_em": "2026-10-17T13:21:54+00:00",
       "categorias": [
         "cftv"
       ]
@@ -12887,7 +13493,7 @@
       "data_fim_vigencia": "2026-10-19T09:30",
       "link": "https://pncp.gov.br/compras/01646008000192/2026/1",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -12918,7 +13524,7 @@
       "data_fim_vigencia": "2026-11-04T07:00",
       "link": "https://pncp.gov.br/compras/48318182000170/2026/1",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -12948,7 +13554,7 @@
       "data_fim_vigencia": "2026-10-19T23:59",
       "link": "https://pncp.gov.br/compras/44498988000136/2026/33",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv"
@@ -12979,7 +13585,7 @@
       "data_fim_vigencia": "2026-10-19T08:30",
       "link": "https://pncp.gov.br/compras/46151718000180/2026/594",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13009,7 +13615,7 @@
       "data_fim_vigencia": "2026-10-29T08:59",
       "link": "https://pncp.gov.br/compras/46523015000135/2026/381",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "calhas",
@@ -13041,7 +13647,7 @@
       "data_fim_vigencia": "2026-10-20T09:00",
       "link": "https://pncp.gov.br/compras/60509015000101/2026/153",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13071,7 +13677,7 @@
       "data_fim_vigencia": "2026-10-27T09:00",
       "link": "https://pncp.gov.br/compras/46137410000180/2026/624",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:49+00:00",
+      "atualizado_em": "2026-10-17T13:20:46+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13101,7 +13707,7 @@
       "data_fim_vigencia": "2026-10-22T08:59",
       "link": "https://pncp.gov.br/compras/46523015000135/2026/368",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13131,7 +13737,7 @@
       "data_fim_vigencia": "2026-10-20T10:00",
       "link": "https://pncp.gov.br/compras/00394452000103/2026/18837",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13161,7 +13767,7 @@
       "data_fim_vigencia": "2026-10-23T08:59",
       "link": "https://pncp.gov.br/compras/46680500000112/2026/295",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -13192,7 +13798,7 @@
       "data_fim_vigencia": "2027-08-06T23:59",
       "link": "https://pncp.gov.br/compras/44441475000199/2026/38",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -13223,7 +13829,7 @@
       "data_fim_vigencia": "2027-07-30T17:00",
       "link": "https://pncp.gov.br/compras/46179941000135/2026/308",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13253,7 +13859,7 @@
       "data_fim_vigencia": "2026-10-23T11:30",
       "link": "https://pncp.gov.br/compras/00509968000148/2026/2127",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13283,7 +13889,7 @@
       "data_fim_vigencia": "2026-10-26T08:59",
       "link": "https://pncp.gov.br/compras/62823257000109/2026/50",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13313,7 +13919,7 @@
       "data_fim_vigencia": "2026-12-31T13:00",
       "link": "https://pncp.gov.br/compras/46371654000122/2026/64",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13343,7 +13949,7 @@
       "data_fim_vigencia": "2027-06-26T23:59:14",
       "link": "https://pncp.gov.br/compras/45318466000178/2026/179",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -13373,7 +13979,7 @@
       "data_fim_vigencia": "2027-06-16T09:00",
       "link": "https://pncp.gov.br/compras/46596151000155/2026/921",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -13404,7 +14010,7 @@
       "data_fim_vigencia": "2027-06-16T08:00",
       "link": "https://pncp.gov.br/compras/46179941000135/2026/222",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:11+00:00",
+      "atualizado_em": "2026-10-17T13:20:58+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13434,7 +14040,7 @@
       "data_fim_vigencia": "2031-06-03T23:59",
       "link": "https://pncp.gov.br/compras/46482832000192/2026/274",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13464,7 +14070,7 @@
       "data_fim_vigencia": "2027-05-24T10:00",
       "link": "https://pncp.gov.br/compras/46137444000174/2026/512",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13494,7 +14100,7 @@
       "data_fim_vigencia": "2027-05-13T23:59:59",
       "link": "https://pncp.gov.br/compras/55356653000108/2026/103",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -13525,7 +14131,7 @@
       "data_fim_vigencia": "2036-05-13T08:00",
       "link": "https://pncp.gov.br/compras/44543981000199/2026/98",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "calhas",
         "pintura"
@@ -13556,7 +14162,7 @@
       "data_fim_vigencia": "2027-03-29T10:00",
       "link": "https://pncp.gov.br/compras/53300356000107/2026/71",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13586,7 +14192,7 @@
       "data_fim_vigencia": "2027-04-27T18:00",
       "link": "https://pncp.gov.br/compras/44951515000142/2026/66",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13616,7 +14222,7 @@
       "data_fim_vigencia": "2060-05-05T08:59",
       "link": "https://pncp.gov.br/compras/46680518000114/2026/73",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "cftv",
@@ -13648,7 +14254,7 @@
       "data_fim_vigencia": "2027-05-12T14:00",
       "link": "https://pncp.gov.br/compras/45122942000180/2026/248",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13678,7 +14284,7 @@
       "data_fim_vigencia": "2028-03-24T23:59",
       "link": "https://pncp.gov.br/compras/46482865000132/2026/67",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13708,7 +14314,7 @@
       "data_fim_vigencia": "2026-12-31T17:00",
       "link": "https://pncp.gov.br/compras/01611213000112/2026/20",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:03+00:00",
+      "atualizado_em": "2026-10-17T13:20:57+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13738,7 +14344,7 @@
       "data_fim_vigencia": "2027-03-20T08:00",
       "link": "https://pncp.gov.br/compras/46410866000171/2026/340",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13768,7 +14374,7 @@
       "data_fim_vigencia": "2028-01-06T00:00",
       "link": "https://pncp.gov.br/compras/46523080000160/2026/17",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -13798,7 +14404,7 @@
       "data_fim_vigencia": "2027-02-24T09:00",
       "link": "https://pncp.gov.br/compras/46596151000155/2026/148",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13828,7 +14434,7 @@
       "data_fim_vigencia": "2027-02-23T17:00",
       "link": "https://pncp.gov.br/compras/46179941000135/2026/32",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:35+00:00",
+      "atualizado_em": "2026-10-17T13:21:24+00:00",
       "categorias": [
         "calhas"
       ]
@@ -13858,7 +14464,7 @@
       "data_fim_vigencia": "2029-03-05T09:30",
       "link": "https://pncp.gov.br/compras/45132495000140/2026/22",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13888,7 +14494,7 @@
       "data_fim_vigencia": "2027-01-06T08:15",
       "link": "https://pncp.gov.br/compras/07309266000160/2025/44",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:51+00:00",
+      "atualizado_em": "2026-10-17T13:21:49+00:00",
       "categorias": [
         "cftv"
       ]
@@ -13918,7 +14524,7 @@
       "data_fim_vigencia": "2027-01-28T17:30",
       "link": "https://pncp.gov.br/compras/45685120000108/2026/1",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -13948,7 +14554,7 @@
       "data_fim_vigencia": "2031-01-23T08:00",
       "link": "https://pncp.gov.br/compras/70946009000175/2025/646",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "cftv",
         "pintura"
@@ -13979,7 +14585,7 @@
       "data_fim_vigencia": "2027-01-16T08:30",
       "link": "https://pncp.gov.br/compras/46596151000155/2026/13",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado",
         "pintura"
@@ -14010,7 +14616,7 @@
       "data_fim_vigencia": "2030-12-19T09:00",
       "link": "https://pncp.gov.br/compras/46523023000181/2025/206",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:25:05+00:00",
+      "atualizado_em": "2026-10-17T13:21:56+00:00",
       "categorias": [
         "cftv"
       ]
@@ -14040,7 +14646,7 @@
       "data_fim_vigencia": "2030-11-18T12:00",
       "link": "https://pncp.gov.br/compras/44733608000109/2025/819",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -14070,7 +14676,7 @@
       "data_fim_vigencia": "2026-11-05T18:00",
       "link": "https://pncp.gov.br/compras/44951515000142/2025/223",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -14100,7 +14706,7 @@
       "data_fim_vigencia": "2026-10-28T15:00",
       "link": "https://pncp.gov.br/compras/44951515000142/2025/211",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -14130,7 +14736,7 @@
       "data_fim_vigencia": "2030-10-22T17:00",
       "link": "https://pncp.gov.br/compras/14009006000134/2025/60",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -14160,7 +14766,7 @@
       "data_fim_vigencia": "2026-11-09T23:59",
       "link": "https://pncp.gov.br/compras/02655907000114/2025/18",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
@@ -14190,7 +14796,7 @@
       "data_fim_vigencia": "9999-12-31T23:59",
       "link": "https://pncp.gov.br/compras/46634234000191/2025/58",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -14220,7 +14826,7 @@
       "data_fim_vigencia": "2030-06-23T12:00",
       "link": "https://pncp.gov.br/compras/44733608000109/2025/533",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:24:26+00:00",
+      "atualizado_em": "2026-10-17T13:21:18+00:00",
       "categorias": [
         "pintura"
       ]
@@ -14250,7 +14856,7 @@
       "data_fim_vigencia": "2030-04-30T16:00",
       "link": "https://pncp.gov.br/compras/46585956000101/2025/19",
       "fonte": "PNCP",
-      "atualizado_em": "2026-10-16T14:23:47+00:00",
+      "atualizado_em": "2026-10-17T13:20:44+00:00",
       "categorias": [
         "ar_condicionado"
       ]
